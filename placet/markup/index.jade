@@ -1,0 +1,20 @@
+// Placet
+
+doctype html
+html(lang='en')
+  head
+    title Placet
+    include ./partials/head.jade
+
+    meta(property='og:title', content='Placet')
+    meta(property='og:url', content='https://placet.noop.pw')
+    link(rel='canonical', href='https://placet.noop.pw')
+    link(rel='stylesheet', type='text/css', href='css/app.css')
+  body
+    h1 Placet
+    p Gene Network Visualisations
+
+    script(type='text/javascript', src='js/app.js')
+    script.
+      var app = require('app');
+      app.init();

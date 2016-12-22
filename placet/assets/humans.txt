@@ -1,0 +1,12 @@
+/* TEAM */
+  Developer: Prashant Sinha
+  GitHub: @prashnts
+  Website: https://placet.noop.pw
+  Source: https://github.com/prashnts/placet
+  From: New Delhi, India
+
+/* THANKS */
+  ...
+
+/* SITE */
+  ...
