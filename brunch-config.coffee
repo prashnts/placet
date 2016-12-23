@@ -27,7 +27,6 @@ module.exports = config:
         mode: 'native'
         includePaths: [
           'node_modules/@blueprintjs/core/src'
-          'node_modules/compass-mixins/lib'
           bourbon.includePaths...
         ]
     babel:
