@@ -11,8 +11,14 @@ html(lang='en')
     link(rel='canonical', href='https://placet.noop.pw')
     link(rel='stylesheet', type='text/css', href='css/app.css')
   body
-    h1 Placet
-    p Gene Network Visualisations
+    nav.pt-navbar.pt-fixed-top.pt-dark
+      .pt-navbar-group.pt-align-left
+        .pt-navbar-heading Placet
+      .pt-navbar-group.pt-align-right
+        button.pt-button.pt-minimal.pt-icon-home Home
+
+    main#placetRoot
+
 
     script(type='text/javascript', src='js/app.js')
     script.
