@@ -1,9 +1,13 @@
 @import 'common/variables'
-
+@import 'bourbon'
 
 body
   margin: 0
-  background: $pt-dark-app-background-color
+  background: $pt-app-background-color
+  @include transition(background .1s ease-in)
+
+  &.pt-dark
+    background: $pt-dark-app-background-color
 
 .np-container
   max-width: 800px
