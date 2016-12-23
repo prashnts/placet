@@ -3385,6 +3385,10 @@ react-addons-css-transition-group@~15.3.0:
   version "15.3.2"
   resolved "https://registry.yarnpkg.com/react-addons-css-transition-group/-/react-addons-css-transition-group-15.3.2.tgz#d8fa52bec9bb61bdfde8b9e4652b80297cbff667"
 
+react-autobind@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-autobind/-/react-autobind-1.0.6.tgz#936bb58edf6b89b619c50f82f0e617159fdfd4f1"
+
 react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"

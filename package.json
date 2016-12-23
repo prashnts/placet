@@ -39,6 +39,7 @@
     "lodash": "^4.11.1",
     "react": "~15.3.0",
     "react-addons-css-transition-group": "~15.3.0",
+    "react-autobind": "^1.0.6",
     "react-dom": "~15.3.0",
     "sass-brunch": "^2.9.0",
     "stylus-brunch": "^2.7.2",

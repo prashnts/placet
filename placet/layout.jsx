@@ -1,31 +1,29 @@
 import React, { Component } from 'react'
 import { Slider, Spinner, NonIdealState } from '@blueprintjs/core'
 
-import * as d3 from 'd3'
+import Network from './components/network'
 
 
 class Placet extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      width: window.width,
-      height: window.height,
+      loaded: false,
     }
-  }
-
-  componentDidMount () {
-    this.svg = d3.select(this.refs.svg)
   }
 
   render () {
     return (
       <div className='pt-dark np-root'>
-        <svg ref='svg' className='np-svg'/>
 
-        <NonIdealState
-          title='Loading'
-          visual={<Spinner/>}
-        />
+        <Network onLoad={val => this.setState({loaded: val})}/>
+
+        {!this.state.loaded &&
+          <NonIdealState
+            title='Loading'
+            visual={<Spinner/>}
+          />
+        }
 
         <section className='np-tools'>
           <Slider
