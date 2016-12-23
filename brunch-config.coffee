@@ -16,6 +16,10 @@ module.exports = config:
       processors: [
         require('autoprefixer')(['last 8 versions'])
       ]
+    sass:
+      options:
+        mode: 'native'
+        includePaths: ['node_modules/@blueprintjs/core/src']
     babel:
       presets: ['es2015', 'react', 'stage-2']
       ignore: [
@@ -32,8 +36,8 @@ module.exports = config:
   npm:
     enabled: yes
     styles:
-      'normalize.css': [
-        'normalize.css'
+      '@blueprintjs/core': [
+        'dist/blueprint.css'
       ]
 
   modules:
