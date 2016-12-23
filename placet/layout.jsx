@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Slider, Spinner, NonIdealState } from '@blueprintjs/core'
+import { Spinner, NonIdealState } from '@blueprintjs/core'
 
 import Network from './components/network'
+import DevelopmentalStageSlider from './components/developmental-stage-slider'
 
 
 class Placet extends Component {
@@ -14,7 +15,7 @@ class Placet extends Component {
 
   render () {
     return (
-      <div className='pt-dark np-root'>
+      <div className='np-root'>
 
         <Network onLoad={val => this.setState({loaded: val})}/>
 
@@ -25,16 +26,8 @@ class Placet extends Component {
           />
         }
 
-        <section className='np-tools'>
-          <Slider
-              min={0}
-              max={48}
-              stepSize={6}
-              labelStepSize={10}
-              onChange={(value) => this.setState({ value3: value })}
-              showTrackFill={false}
-              value={this.state.value3}
-          />
+        <section className='np-tools np-container'>
+          <DevelopmentalStageSlider/>
         </section>
       </div>
     )

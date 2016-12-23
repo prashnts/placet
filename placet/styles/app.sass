@@ -1,8 +1,13 @@
 @import 'common/variables'
 
+
 body
   margin: 0
   background: $pt-dark-app-background-color
+
+.np-container
+  max-width: 800px
+  margin: 0 auto
 
 .np-root
   display: flex
@@ -14,7 +19,6 @@ body
     left: 0
     right: 0
     margin: auto
-    width: 70%
 
   .np-svg
     position: fixed
@@ -22,6 +26,8 @@ body
     width: 100vw
     height: 100vh
 
+  .pt-slider-label
+    white-space: nowrap
 
 .np-graph-links line
   stroke: #999
