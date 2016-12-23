@@ -1,4 +1,10 @@
 # Placet
+bourbon = require 'node-bourbon'
+fse = require 'fs-extra'
+
+copy_map = [
+  ['node_modules/@blueprintjs/core/resources', 'public/resources']
+]
 
 module.exports = config:
   paths:
@@ -19,7 +25,11 @@ module.exports = config:
     sass:
       options:
         mode: 'native'
-        includePaths: ['node_modules/@blueprintjs/core/src']
+        includePaths: [
+          'node_modules/@blueprintjs/core/src'
+          'node_modules/compass-mixins/lib'
+          bourbon.includePaths...
+        ]
     babel:
       presets: ['es2015', 'react', 'stage-2']
       ignore: [
@@ -55,3 +65,9 @@ module.exports = config:
 
   server:
     command: "node_modules/.bin/http-server -c-1 -p #{process.env.PORT or 8080}"
+
+  hooks:
+    preCompile: (end) ->
+      for [src, dest] in copy_map
+        fse.copySync src, dest
+      end()
