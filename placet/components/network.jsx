@@ -1,13 +1,21 @@
 import React, { Component } from 'react'
+import { Intent } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
-import reqwest from 'reqwest'
 import * as d3 from 'd3'
+
+import { request } from '../mixins'
+import { STAGES } from './developmental-stage-slider'
+import { Toast } from '../utils'
 
 
 class Network extends Component {
   constructor (props) {
     super(props)
+    this.state = {
+      stage: props.stage,
+      tissue: props.tissue,
+    }
     this.emitLoad = props.onLoad
     autoBind(this)
   }
@@ -19,14 +27,32 @@ class Network extends Component {
       .force('charge', d3.forceManyBody().strength(-2))
       .force('center', d3.forceCenter(600, 400))
 
-    reqwest({
-      url: '/data/network_adj_list.json',
-      type: 'json',
-      method: 'get',
-    }).then(resp => {
-      this.drawGraph(resp)
-      this.emitLoad(true)
-    })
+    request({ url: '/data/network_adj_list.json' })
+      .then(resp => {
+        this.drawGraph(resp)
+        this.emitLoad(true)
+      })
+  }
+
+  componentWillReceiveProps (props) {
+    const { stage, tissue } = props
+    const stage_id = STAGES[stage].toLowerCase()
+    if (stage !== this.state.stage || tissue !== this.state.tissue) {
+      this.setState({ stage: stage, tissue: tissue })
+      this.emitLoad(false)
+      request({ url: `/data/expression/${stage_id}/${tissue}.json`})
+        .then(resp => {
+          this.emitLoad(true)
+        })
+        .fail(() => {
+          Toast.show({
+            message: 'Could not load the expression weights.',
+            intent: Intent.DANGER,
+            iconName: 'cross',
+          })
+          this.emitLoad(true)
+        })
+    }
   }
 
   drawGraph (graph) {
@@ -66,7 +92,6 @@ class Network extends Component {
 
     this.simulation.nodes(graph.nodes)
       .on('tick', _tick)
-
     this.simulation.force('link')
       .links(graph.links)
   }

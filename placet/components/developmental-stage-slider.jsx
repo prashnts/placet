@@ -16,9 +16,19 @@ class DevelopmentalStageSlider extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      chosen_stage: 0,
+      value: props.value,
     }
+    this.emitChange = props.onChange
     autoBind(this)
+  }
+
+  changeStage (value) {
+    this.setState({ value: value })
+    this.emitChange(value)
+  }
+
+  componentWillReceiveProps (props) {
+    this.setState({ ...props })
   }
 
   render () {
@@ -26,10 +36,11 @@ class DevelopmentalStageSlider extends Component {
       <Slider
           min={0}
           max={STAGES.length - 1}
+          disabled={this.state.disabled}
           stepSize={1}
-          onChange={(value) => this.setState({ chosen_stage: value })}
           showTrackFill={false}
-          value={this.state.chosen_stage}
+          value={this.state.value}
+          onChange={this.changeStage}
           renderLabel={value => STAGES[value]}
       />
     )
@@ -37,3 +48,4 @@ class DevelopmentalStageSlider extends Component {
 }
 
 export default DevelopmentalStageSlider
+export { STAGES }
