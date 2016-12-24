@@ -10,6 +10,8 @@ class Placet extends Component {
     super(props)
     this.state = {
       loaded: false,
+      stage: 2,
+      tissue: 'A1C',
     }
   }
 
@@ -17,7 +19,11 @@ class Placet extends Component {
     return (
       <div className='np-root'>
 
-        <Network onLoad={val => this.setState({loaded: val})}/>
+        <Network
+          onLoad={val => this.setState({loaded: val})}
+          stage={this.state.stage}
+          tissue={this.state.tissue}
+        />
 
         {!this.state.loaded &&
           <NonIdealState
@@ -27,7 +33,11 @@ class Placet extends Component {
         }
 
         <section className='np-tools np-container'>
-          <DevelopmentalStageSlider/>
+          <DevelopmentalStageSlider
+            onChange={v => this.setState({ stage: v })}
+            value={this.state.stage}
+            disabled={!this.state.loaded}
+          />
         </section>
       </div>
     )
