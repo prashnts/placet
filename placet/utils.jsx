@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button } from '@blueprintjs/core'
+import { Button, Position, Toaster } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
 import cx from 'classnames'
@@ -41,4 +41,10 @@ class ColorSchemeToggle extends Component {
 }
 
 
-export { ColorSchemeToggle }
+const Toast = Toaster.create({
+  className: 'np-toast',
+  position: Position.TOP,
+})
+
+
+export { ColorSchemeToggle, Toast }
