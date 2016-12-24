@@ -10,6 +10,9 @@ html(lang='en')
     meta(property='og:url', content='https://placet.noop.pw')
     link(rel='canonical', href='https://placet.noop.pw')
     link(rel='stylesheet', type='text/css', href='css/app.css')
+    if DEBUG
+      script.
+        window.brunch = {server: 'localhost'};
   body
     nav.pt-navbar.pt-fixed-top
       .np-container

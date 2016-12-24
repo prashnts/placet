@@ -1,6 +1,8 @@
 # Placet
 bourbon = require 'node-bourbon'
 fse = require 'fs-extra'
+global.DEBUG = '-p' not in global.process.argv
+global._COPIED = no
 
 copy_map = [
   ['data', 'public/data']
@@ -19,15 +21,14 @@ module.exports = config:
       useCoffeelintJson: yes
     jaded:
       staticPatterns: /^placet\/markup\/([\d\w]*)\.jade$/
-    postcss:
-      processors: [
-        require('autoprefixer')(['last 8 versions'])
-      ]
+      globals: ['DEBUG']
     sass:
       options:
-        mode: 'native'
+        mode: 'ruby'
+        debug: 'debug'
+        allowCache: true
         includePaths: [
-          'node_modules/@blueprintjs/core/src'
+          './node_modules/@blueprintjs/core/dist/'
           bourbon.includePaths...
         ]
     babel:
@@ -68,7 +69,9 @@ module.exports = config:
 
   hooks:
     preCompile: (end) ->
-      for [src, dest] in copy_map
-        fse.copySync src, dest
-        console.log 'Copied', src, 'to', dest
+      unless global._COPIED
+        for [src, dest] in copy_map
+          fse.copySync src, dest
+          console.log 'Copied', src, 'to', dest
+        global._COPIED = yes
       end()
