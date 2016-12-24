@@ -1,26 +1,8 @@
 import React, { Component } from 'react'
 
 import autoBind from 'react-autobind'
+import reqwest from 'reqwest'
 import * as d3 from 'd3'
-
-// Sample data
-const GRAPH = {
-  'nodes': [
-    {'id': 'red'},
-    {'id': 'orange'},
-    {'id': 'yellow'},
-    {'id': 'green'},
-    {'id': 'blue'},
-    {'id': 'violet'},
-  ],
-  'links': [
-    {'source': 'red', 'target': 'yellow', 'value': 2},
-    {'source': 'red', 'target': 'blue', 'value': 2},
-    {'source': 'red', 'target': 'green', 'value': 2},
-    {'source': 'green', 'target': 'orange', 'value': 2},
-    {'source': 'orange', 'target': 'violet', 'value': 2},
-  ],
-}
 
 
 class Network extends Component {
@@ -34,29 +16,37 @@ class Network extends Component {
     this.svg = d3.select(this.refs.svg)
     this.simulation = d3.forceSimulation()
       .force('link', d3.forceLink().id(d => d.id))
-      .force('charge', d3.forceManyBody())
-      .force('center', d3.forceCenter(400, 300))
-    this.drawGraph()
+      .force('charge', d3.forceManyBody().strength(-2))
+      .force('center', d3.forceCenter(600, 400))
 
-    this.emitLoad(true)
+    reqwest({
+      url: '/data/network_adj_list.json',
+      type: 'json',
+      method: 'get',
+    }).then(resp => {
+      this.drawGraph(resp)
+      this.emitLoad(true)
+    })
   }
 
-  drawGraph () {
+  drawGraph (graph) {
+    const color = d3.scaleOrdinal(d3.schemeCategory20)
     let link = this.svg.append('g')
         .attr('class', 'np-graph-links')
       .selectAll('lines')
-      .data(GRAPH.links)
+      .data(graph.links)
       .enter()
         .append('line')
-          .attr('stroke-width', d => Math.sqrt(d.value))
+          .attr('stroke-width', d => 0)
 
     let node = this.svg.append('g')
         .attr('class', 'np-graph-nodes')
       .selectAll('circle')
-      .data(GRAPH.nodes)
+      .data(graph.nodes)
       .enter()
         .append('circle')
-          .attr('r', 10)
+          .attr('r', d => Math.log(1 + d.deg) * 2)
+          .attr('fill', d => color(d.group))
           .call(d3.drag()
               .on('start', this.dragStart)
               .on('drag', this.dragMove)
@@ -72,14 +62,13 @@ class Network extends Component {
       node
         .attr('cx', d => d.x)
         .attr('cy', d => d.y)
-
     }
 
-    this.simulation.nodes(GRAPH.nodes)
+    this.simulation.nodes(graph.nodes)
       .on('tick', _tick)
 
     this.simulation.force('link')
-      .links(GRAPH.links)
+      .links(graph.links)
   }
 
   dragStart (d) {

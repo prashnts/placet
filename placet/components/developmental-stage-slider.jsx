@@ -4,19 +4,11 @@ import { Slider } from '@blueprintjs/core'
 import autoBind from 'react-autobind'
 
 const STAGES = [
-  'Early fetal 2',
-  'Early midfetal 1',
-  'Early midfetal 2',
-  'Late midfetal',
-  'Late fetal',
-  'Neonatal early infancy',
-  'Late infancy',
-  'Early childhood',
-  'Middle-late childhood',
-  'Adolescence',
-  'Young adulthood',
-  'Middle adulthood',
-  'Late adulthood',
+  'Prenatal',
+  'Infant',
+  'Child',
+  'Adolescent',
+  'Adult',
 ]
 
 
@@ -38,13 +30,7 @@ class DevelopmentalStageSlider extends Component {
           onChange={(value) => this.setState({ chosen_stage: value })}
           showTrackFill={false}
           value={this.state.chosen_stage}
-          renderLabel={value => {
-            if (this.state.chosen_stage === value) {
-              return STAGES[value]
-            } else {
-              return value + 1
-            }
-          }}
+          renderLabel={value => STAGES[value]}
       />
     )
   }
