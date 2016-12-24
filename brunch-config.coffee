@@ -3,6 +3,7 @@ bourbon = require 'node-bourbon'
 fse = require 'fs-extra'
 
 copy_map = [
+  ['data/network_adj_list.json', 'public/data/network_adj_list.json']
   ['node_modules/@blueprintjs/core/resources', 'public/resources']
 ]
 
