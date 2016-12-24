@@ -3,7 +3,7 @@ bourbon = require 'node-bourbon'
 fse = require 'fs-extra'
 
 copy_map = [
-  ['data/network_adj_list.json', 'public/data/network_adj_list.json']
+  ['data', 'public/data']
   ['node_modules/@blueprintjs/core/resources', 'public/resources']
 ]
 
@@ -70,4 +70,5 @@ module.exports = config:
     preCompile: (end) ->
       for [src, dest] in copy_map
         fse.copySync src, dest
+        console.log 'Copied', src, 'to', dest
       end()
