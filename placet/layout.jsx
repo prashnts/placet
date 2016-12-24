@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Spinner, NonIdealState } from '@blueprintjs/core'
 
 import Network from './components/network'
+import TissueSelector from './components/tissue-selector'
 import DevelopmentalStageSlider from './components/developmental-stage-slider'
 
 
@@ -11,7 +12,7 @@ class Placet extends Component {
     this.state = {
       loaded: false,
       stage: 2,
-      tissue: 'A1C',
+      tissue: 'STR',
     }
   }
 
