@@ -1,0 +1,844 @@
+,diseaseId,geneId,score,geneName,description,diseaseName,sourceId,NofPmids,NofSnps
+53,umls:C0000786,348,0.12236703197860198,APOE,apolipoprotein E,Spontaneous abortion,CTD_human,2,0
+95,umls:C0000786,5740,0.12,PTGIS,prostaglandin I2 (prostacyclin) synthase,Spontaneous abortion,CTD_human,1,0
+146,umls:C0001175,9162,0.12236703197860198,DGKI,"diacylglycerol kinase, iota",Acquired Immunodeficiency Syndrome,GWASCAT,1,1
+198,umls:C0001418,348,0.12027144187208001,APOE,apolipoprotein E,Adenocarcinoma,CTD_human,2,0
+227,umls:C0001418,5587,0.120542883744161,PRKD1,protein kinase D1,Adenocarcinoma,CTD_human,2,0
+249,umls:C0001418,7124,0.143536954957456,TNF,tumor necrosis factor,Adenocarcinoma,CTD_human,23,0
+362,umls:C0001925,7124,0.20473406395720395,TNF,tumor necrosis factor,Albuminuria,CTD_human,4,0
+371,umls:C0001973,1136,0.130011011658569,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)","Alcoholic Intoxication, Chronic",CTD_human,5,0
+372,umls:C0001973,1138,0.132649485509251,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)","Alcoholic Intoxication, Chronic",CTD_human,7,3
+375,umls:C0001973,1312,0.15710045517145801,COMT,catechol-O-methyltransferase,"Alcoholic Intoxication, Chronic",CTD_human,27,3
+388,umls:C0001973,3356,0.146113296634743,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled","Alcoholic Intoxication, Chronic",CTD_human,16,2
+403,umls:C0001973,6532,0.21548211823024102,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4","Alcoholic Intoxication, Chronic",CTD_human,78,9
+419,umls:C0002170,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Alopecia,CTD_human,1,0
+459,umls:C0002395,1139,0.14599979484950698,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Alzheimer's Disease,CTD_human,11,0
+518,umls:C0002395,348,0.44,APOE,apolipoprotein E,Alzheimer's Disease,CTD_human,1226,22
+541,umls:C0002395,4524,0.189620074257605,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Alzheimer's Disease,CTD_human,35,4
+572,umls:C0002395,627,0.282235884026802,BDNF,brain-derived neurotrophic factor,Alzheimer's Disease,CTD_human,58,5
+576,umls:C0002395,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Alzheimer's Disease,GWASCAT,1,1
+584,umls:C0002395,7124,0.19912659012701803,TNF,tumor necrosis factor,Alzheimer's Disease,CTD_human,39,0
+654,umls:C0002726,348,0.12799136642216802,APOE,apolipoprotein E,Amyloidosis,CTD_human,15,0
+670,umls:C0002736,1610,0.12,DAO,D-amino-acid oxidase,Amyotrophic Lateral Sclerosis,ORPHANET,0,0
+759,umls:C0002871,4524,0.125819831445525,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Anemia,CTD_human,6,1
+767,umls:C0002871,7124,0.132516120680686,TNF,tumor necrosis factor,Anemia,CTD_human,20,0
+807,umls:C0002893,7124,0.12263847385068198,TNF,tumor necrosis factor,Refractory anemias,CTD_human,2,0
+814,umls:C0002895,7124,0.131182655538675,TNF,tumor necrosis factor,"Anemia, Sickle Cell",CTD_human,8,0
+825,umls:C0002902,4524,0.12827273981591197,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Anencephaly,ORPHANET,4,0
+868,umls:C0003123,7124,0.12135720936040198,TNF,tumor necrosis factor,Anorexia,CTD_human,6,1
+874,umls:C0003125,3356,0.14500378492803198,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Anorexia Nervosa,CTD_human,14,0
+876,umls:C0003125,627,0.144251591485186,BDNF,brain-derived neurotrophic factor,Anorexia Nervosa,CTD_human,14,1
+906,umls:C0003130,627,0.12,BDNF,brain-derived neurotrophic factor,Anoxia,CTD_human,1,0
+914,umls:C0003165,7124,0.126634157061766,TNF,tumor necrosis factor,Anthracosis,CTD_human,8,0
+922,umls:C0003469,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Anxiety Disorders,CTD_human,1,0
+931,umls:C0003469,1813,0.125895776315646,DRD2,dopamine receptor D2,Anxiety Disorders,CTD_human,14,1
+951,umls:C0003469,6531,0.123724241339004,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Anxiety Disorders,CTD_human,5,2
+952,umls:C0003469,6532,0.264310655727945,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Anxiety Disorders,CTD_human,149,6
+953,umls:C0003469,7124,0.12027144187208001,TNF,tumor necrosis factor,Anxiety Disorders,CTD_human,2,0
+1012,umls:C0003811,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Cardiac Arrhythmia,CTD_human,1,0
+1017,umls:C0003811,775,0.12,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Cardiac Arrhythmia,CTD_human,1,0
+1022,umls:C0003850,348,0.207296000331334,APOE,apolipoprotein E,Arteriosclerosis,CTD_human,283,1
+1044,umls:C0003869,7124,0.12027144187208001,TNF,tumor necrosis factor,"Arthritis, Infectious",CTD_human,2,0
+1059,umls:C0003872,7124,0.156252453815163,TNF,tumor necrosis factor,"Arthritis, Psoriatic",CTD_human,38,0
+1068,umls:C0003873,10274,0.12,STAG1,stromal antigen 1,Rheumatoid Arthritis,GWASCAT,1,1
+1173,umls:C0003873,4524,0.204307729914934,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Rheumatoid Arthritis,CTD_human,49,8
+1233,umls:C0003873,7124,0.42538440581921205,TNF,tumor necrosis factor,Rheumatoid Arthritis,CTD_human,520,8
+1369,umls:C0004096,4855,0.12236703197860198,NOTCH4,notch 4,Asthma,GWASCAT,1,1
+1397,umls:C0004096,7124,0.265827974346731,TNF,tumor necrosis factor,Asthma,CTD_human,123,14
+1441,umls:C0004134,348980,0.12,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,Ataxia,CTD_human,1,0
+1473,umls:C0004153,348,0.301890017246755,APOE,apolipoprotein E,Atherosclerosis,CTD_human,322,1
+1499,umls:C0004153,7124,0.172949823187229,TNF,tumor necrosis factor,Atherosclerosis,CTD_human,73,2
+1516,umls:C0004238,3782,0.242367031978602,KCNN3,"potassium channel, calcium activated intermediate/small conductance subfamily N alpha, member 3",Atrial Fibrillation,"CTD_human,GWASCAT",2,2
+1517,umls:C0004238,4524,0.12236703197860198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Atrial Fibrillation,GWASCAT,1,1
+1533,umls:C0004310,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Auditory Perceptual Disorders,CTD_human,1,0
+1549,umls:C0004352,1139,0.12563426596523,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Autistic Disorder,CTD_human,4,0
+1556,umls:C0004352,1312,0.125276947701365,COMT,catechol-O-methyltransferase,Autistic Disorder,CTD_human,5,1
+1562,umls:C0004352,152330,0.12345279946692302,CNTN4,contactin 4,Autistic Disorder,CTD_human,6,0
+1568,umls:C0004352,1610,0.12236703197860198,DAO,D-amino-acid oxidase,Autistic Disorder,CTD_human,1,0
+1575,umls:C0004352,1806,0.12027144187208001,DPYD,dihydropyrimidine dehydrogenase,Autistic Disorder,CTD_human,1,0
+1577,umls:C0004352,1814,0.125276947701365,DRD3,dopamine receptor D3,Autistic Disorder,CTD_human,4,1
+1614,umls:C0004352,27185,0.12462444334702902,DISC1,disrupted in schizophrenia 1,Autistic Disorder,CTD_human,7,0
+1622,umls:C0004352,2903,0.12027144187208001,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Autistic Disorder,CTD_human,1,0
+1639,umls:C0004352,3356,0.143560699175846,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Autistic Disorder,CTD_human,13,0
+1678,umls:C0004352,4524,0.13082533727481,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Autistic Disorder,CTD_human,6,1
+1726,umls:C0004352,57502,0.149161289401021,NLGN4X,"neuroligin 4, X-linked",Autistic Disorder,CTD_human,28,1
+1734,umls:C0004352,627,0.135092462357974,BDNF,brain-derived neurotrophic factor,Autistic Disorder,CTD_human,15,0
+1742,umls:C0004352,6532,0.26754300906276,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Autistic Disorder,CTD_human,53,3
+1762,umls:C0004352,775,0.12108576748832099,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Autistic Disorder,CTD_human,5,0
+1768,umls:C0004352,83943,0.123181357594843,IMMP2L,IMP2 inner mitochondrial membrane peptidase-like (S. cerevisiae),Autistic Disorder,CTD_human,3,0
+1782,umls:C0004352,9378,0.21689286637402502,NRXN1,neurexin 1,Autistic Disorder,CTD_human,24,0
+1856,umls:C0004782,1813,0.12473406395720402,DRD2,dopamine receptor D2,Basal Ganglia Diseases,CTD_human,7,0
+1857,umls:C0004782,1814,0.12,DRD3,dopamine receptor D3,Basal Ganglia Diseases,CTD_human,1,0
+1858,umls:C0004782,3356,0.12,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Basal Ganglia Diseases,CTD_human,1,0
+1872,umls:C0004936,1312,0.13241038124557303,COMT,catechol-O-methyltransferase,Mental disorders,CTD_human,39,1
+1922,umls:C0005138,7124,0.132192478156875,TNF,tumor necrosis factor,Berylliosis,CTD_human,8,0
+1947,umls:C0005586,1312,0.18062747860725,COMT,catechol-O-methyltransferase,Bipolar Disorder,CTD_human,50,2
+1970,umls:C0005586,3356,0.23228051482246898,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Bipolar Disorder,CTD_human,30,2
+1975,umls:C0005586,4524,0.140812604714988,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Bipolar Disorder,CTD_human,15,3
+1988,umls:C0005586,627,0.23131600925099,BDNF,brain-derived neurotrophic factor,Bipolar Disorder,CTD_human,91,1
+1991,umls:C0005586,6532,0.22636958767844603,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Bipolar Disorder,CTD_human,76,4
+2001,umls:C0005586,775,0.269598433710069,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Bipolar Disorder,"CTD_human,GWASCAT",50,7
+2114,umls:C0005695,4524,0.132821238292821,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Bladder Neoplasm,CTD_human,6,5
+2134,umls:C0005695,7124,0.12590570783731,TNF,tumor necrosis factor,Bladder Neoplasm,CTD_human,5,0
+2185,umls:C0005910,627,0.12,BDNF,brain-derived neurotrophic factor,Body Weight,CTD_human,2,0
+2268,umls:C0006111,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Brain Diseases,CTD_human,1,0
+2319,umls:C0006142,207,0.15040148967299402,AKT1,v-akt murine thymoma viral oncogene homolog 1,Malignant neoplasm of breast,UNIPROT,113,1
+2381,umls:C0006267,7124,0.120542883744161,TNF,tumor necrosis factor,Bronchiectasis,CTD_human,3,0
+2409,umls:C0006625,7124,0.13016290139881,TNF,tumor necrosis factor,Cachexia,CTD_human,22,0
+2594,umls:C0007131,6472,0.12,SHMT2,serine hydroxymethyltransferase 2 (mitochondrial),Non-Small Cell Lung Carcinoma,CTD_human,1,0
+2739,umls:C0007134,91752,0.12,ZNF804A,zinc finger protein 804A,Renal Cell Carcinoma,CTD_human,1,0
+2742,umls:C0007134,9745,0.12,ZNF536,zinc finger protein 536,Renal Cell Carcinoma,CTD_human,1,0
+2758,umls:C0007137,207,0.13170179506444502,AKT1,v-akt murine thymoma viral oncogene homolog 1,Squamous cell carcinoma,CTD_human,17,1
+2854,umls:C0007138,7124,0.12027144187208001,TNF,tumor necrosis factor,"Carcinoma, Transitional Cell",CTD_human,2,0
+2964,umls:C0007222,348,0.243208915269089,APOE,apolipoprotein E,Cardiovascular Diseases,CTD_human,158,5
+2969,umls:C0007222,4524,0.244595919194483,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Cardiovascular Diseases,CTD_human,116,4
+2994,umls:C0007273,348,0.137926433210616,APOE,apolipoprotein E,Carotid Artery Diseases,CTD_human,11,2
+3005,umls:C0007282,348,0.130282453530649,APOE,apolipoprotein E,Carotid Stenosis,CTD_human,6,0
+3015,umls:C0007370,1813,0.12,DRD2,dopamine receptor D2,Catalepsy,CTD_human,4,0
+3108,umls:C0007621,3084,0.12,NRG1,neuregulin 1,Neoplastic Cell Transformation,CTD_human,1,0
+3208,umls:C0007766,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Intracranial Aneurysm,GWASCAT,1,1
+3253,umls:C0007786,4524,0.200836405536334,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Brain Ischemia,CTD_human,35,0
+3267,umls:C0007786,627,0.120542883744161,BDNF,brain-derived neurotrophic factor,Brain Ischemia,CTD_human,3,1
+3276,umls:C0007786,7124,0.13210660176509,TNF,tumor necrosis factor,Brain Ischemia,CTD_human,7,0
+3308,umls:C0007873,4524,0.136569223850214,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Uterine Cervical Neoplasm,CTD_human,7,0
+3359,umls:C0008073,152330,0.12,CNTN4,contactin 4,Developmental Disabilities,CTD_human,1,0
+3360,umls:C0008073,1813,0.12,DRD2,dopamine receptor D2,Developmental Disabilities,CTD_human,1,0
+3388,umls:C0008074,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,"Child Development Disorders, Pervasive",CTD_human,2,0
+3389,umls:C0008074,1815,0.12,DRD4,dopamine receptor D4,"Child Development Disorders, Pervasive",CTD_human,1,0
+3414,umls:C0008074,57502,0.12,NLGN4X,"neuroligin 4, X-linked","Child Development Disorders, Pervasive",CTD_human,1,0
+3419,umls:C0008074,627,0.12,BDNF,brain-derived neurotrophic factor,"Child Development Disorders, Pervasive",CTD_human,1,0
+3429,umls:C0008074,9378,0.12,NRXN1,neurexin 1,"Child Development Disorders, Pervasive",CTD_human,1,0
+3433,umls:C0008149,7124,0.125819831445525,TNF,tumor necrosis factor,Chlamydia Infections,CTD_human,7,0
+3509,umls:C0008370,7124,0.12027144187208001,TNF,tumor necrosis factor,Cholestasis,CTD_human,2,0
+3556,umls:C0008677,1136,0.12,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)","Bronchitis, Chronic",GWASCAT,1,1
+3561,umls:C0008677,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,"Bronchitis, Chronic",GWASCAT,1,1
+3584,umls:C0008924,4524,0.18141939813675198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Cleft Lip,CTD_human,26,0
+3611,umls:C0008925,23314,0.121900093104562,SATB2,SATB homeobox 2,Cleft Palate,CTD_human,9,0
+3640,umls:C0009081,4524,0.12263847385068198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Congenital clubfoot,CTD_human,1,0
+3646,umls:C0009241,1312,0.12,COMT,catechol-O-methyltransferase,Cognition Disorders,CTD_human,1,0
+3648,umls:C0009241,1813,0.12236703197860198,DRD2,dopamine receptor D2,Cognition Disorders,CTD_human,2,0
+3649,umls:C0009241,1814,0.12,DRD3,dopamine receptor D3,Cognition Disorders,CTD_human,1,0
+3655,umls:C0009241,348,0.125276947701365,APOE,apolipoprotein E,Cognition Disorders,CTD_human,5,0
+3664,umls:C0009241,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Cognition Disorders,CTD_human,1,0
+3665,umls:C0009241,6532,0.12,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Cognition Disorders,CTD_human,1,0
+3690,umls:C0009319,7124,0.13331058325359899,TNF,tumor necrosis factor,Colitis,CTD_human,42,0
+3772,umls:C0009324,7124,0.18707607018872,TNF,tumor necrosis factor,Ulcerative Colitis,CTD_human,65,28
+3811,umls:C0009375,1806,0.12263847385068198,DPYD,dihydropyrimidine dehydrogenase,Colonic Neoplasms,CTD_human,3,0
+3862,umls:C0009375,4524,0.162754584180016,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Colonic Neoplasms,CTD_human,18,1
+3906,umls:C0009375,7124,0.123267233986628,TNF,tumor necrosis factor,Colonic Neoplasms,CTD_human,5,0
+3980,umls:C0009404,1806,0.150795990980106,DPYD,dihydropyrimidine dehydrogenase,Colorectal Neoplasms,CTD_human,22,0
+3988,umls:C0009404,207,0.12871593447156202,AKT1,v-akt murine thymoma viral oncogene homolog 1,Colorectal Neoplasms,CTD_human,5,0
+4024,umls:C0009404,2903,0.122724350242467,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Colorectal Neoplasms,CTD_human,1,0
+4059,umls:C0009404,4524,0.20302863459619394,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Colorectal Neoplasms,CTD_human,40,0
+4085,umls:C0009404,5587,0.12027144187208001,PRKD1,protein kinase D1,Colorectal Neoplasms,CTD_human,2,0
+4129,umls:C0009404,7124,0.131625850194325,TNF,tumor necrosis factor,Colorectal Neoplasms,CTD_human,9,0
+4239,umls:C0010068,23293,0.12,SMG6,SMG6 nonsense mediated mRNA decay factor,Coronary heart disease,GWASCAT,1,2
+4247,umls:C0010068,348,0.259776800987652,APOE,apolipoprotein E,Coronary heart disease,CTD_human,193,4
+4259,umls:C0010068,4524,0.23885591379414,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Coronary heart disease,CTD_human,126,8
+4267,umls:C0010068,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Coronary heart disease,GWASCAT,1,1
+4407,umls:C0010346,7124,0.422294957167293,TNF,tumor necrosis factor,Crohn Disease,"CTD_human,GWASCAT",114,23
+4586,umls:C0011053,627,0.12,BDNF,brain-derived neurotrophic factor,Deafness,CTD_human,2,0
+4592,umls:C0011057,4524,0.136926542114079,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Hearing Loss, Sudden",CTD_human,6,0
+4649,umls:C0011581,4524,0.125971721185767,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Depressive disorder,CTD_human,23,2
+4658,umls:C0011581,627,0.24832658475195798,BDNF,brain-derived neurotrophic factor,Depressive disorder,CTD_human,173,19
+4661,umls:C0011581,6532,0.2817238665395,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Depressive disorder,CTD_human,286,10
+4686,umls:C0011609,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Drug Eruptions,CTD_human,1,0
+4767,umls:C0011616,3084,0.12,NRG1,neuregulin 1,Contact Dermatitis,CTD_human,1,0
+4815,umls:C0011633,7124,0.14598986332784197,TNF,tumor necrosis factor,Dermatomyositis,CTD_human,16,0
+4903,umls:C0011853,488,0.2,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2","Diabetes Mellitus, Experimental",CTD_human,2,0
+4943,umls:C0011853,7124,0.2,TNF,tumor necrosis factor,"Diabetes Mellitus, Experimental",CTD_human,8,0
+5026,umls:C0011854,7124,0.226631098028862,TNF,tumor necrosis factor,"Diabetes Mellitus, Insulin-Dependent",CTD_human,82,0
+5049,umls:C0011860,10198,0.12027144187208001,MPHOSPH9,M-phase phosphoprotein 9,"Diabetes Mellitus, Non-Insulin-Dependent",GWASCAT,2,1
+5128,umls:C0011860,488,0.20272435024246696,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2","Diabetes Mellitus, Non-Insulin-Dependent",CTD_human,3,0
+5182,umls:C0011860,7124,0.316412936945417,TNF,tumor necrosis factor,"Diabetes Mellitus, Non-Insulin-Dependent",CTD_human,115,8
+5218,umls:C0011875,4524,0.13210660176509,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Diabetic Angiopathies,CTD_human,7,0
+5306,umls:C0012236,1312,0.27955336354184496,COMT,catechol-O-methyltransferase,DiGeorge Syndrome,"CTD_human,ORPHANET",26,3
+5379,umls:C0013080,4524,0.23918694479620498,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Down Syndrome,CTD_human,59,8
+5468,umls:C0013182,7124,0.12473406395720402,TNF,tumor necrosis factor,Drug Allergy,CTD_human,4,0
+5484,umls:C0013274,5740,0.12263847385068198,PTGIS,prostaglandin I2 (prostacyclin) synthase,Patent ductus arteriosus,CTD_human,1,1
+5511,umls:C0013384,1813,0.13171172658611,DRD2,dopamine receptor D2,Dyskinetic syndrome,CTD_human,8,0
+5512,umls:C0013384,3356,0.12027144187208001,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Dyskinetic syndrome,CTD_human,2,2
+5517,umls:C0013386,1813,0.202367031978602,DRD2,dopamine receptor D2,"Dyskinesia, Drug-Induced",CTD_human,5,0
+5518,umls:C0013386,1814,0.12236703197860198,DRD3,dopamine receptor D3,"Dyskinesia, Drug-Induced",CTD_human,2,0
+5580,umls:C0013604,7124,0.12236703197860198,TNF,tumor necrosis factor,Edema,CTD_human,2,0
+5602,umls:C0013990,348,0.12,APOE,apolipoprotein E,Pathological accumulation of air in tissues,CTD_human,1,0
+5653,umls:C0014170,4524,0.12236703197860198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Endometrial Neoplasms,CTD_human,1,0
+5802,umls:C0014175,5999,0.12,RGS4,regulator of G-protein signaling 4,Endometriosis,CTD_human,1,0
+5805,umls:C0014175,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Endometriosis,CTD_human,1,0
+5878,umls:C0014544,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Epilepsy,CTD_human,1,0
+5892,umls:C0014544,2903,0.123257302464964,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Epilepsy,CTD_human,12,0
+5895,umls:C0014544,348980,0.121900093104562,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,Epilepsy,CTD_human,7,0
+5915,umls:C0014544,627,0.13062984027285,BDNF,brain-derived neurotrophic factor,Epilepsy,CTD_human,15,1
+5920,umls:C0014544,6505,0.120814325616241,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Epilepsy,CTD_human,4,0
+5937,umls:C0014548,1139,0.12263847385068198,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)","Epilepsy, Generalized",CTD_human,2,0
+5950,umls:C0014549,627,0.12,BDNF,brain-derived neurotrophic factor,Tonic-Clonic Epilepsy,CTD_human,1,0
+5969,umls:C0014556,2913,0.12,GRM3,"glutamate receptor, metabotropic 3","Epilepsy, Temporal Lobe",CTD_human,1,0
+5982,umls:C0014556,6505,0.120542883744161,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1","Epilepsy, Temporal Lobe",CTD_human,2,0
+6142,umls:C0015625,7124,0.128434561077818,TNF,tumor necrosis factor,Fanconi Anemia,CTD_human,14,0
+6206,umls:C0015695,7124,0.143918017439711,TNF,tumor necrosis factor,Fatty Liver,CTD_human,16,0
+6227,umls:C0015934,1312,0.12236703197860198,COMT,catechol-O-methyltransferase,Fetal Growth Retardation,CTD_human,2,0
+6244,umls:C0015967,3356,0.12,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Fever,CTD_human,1,0
+6258,umls:C0015967,7124,0.12236703197860198,TNF,tumor necrosis factor,Fever,CTD_human,4,0
+6279,umls:C0016059,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Fibrosis,CTD_human,1,0
+6303,umls:C0016059,7124,0.14036552888427697,TNF,tumor necrosis factor,Fibrosis,CTD_human,9,0
+6353,umls:C0016995,1814,0.12,DRD3,dopamine receptor D3,Gambling,CTD_human,1,0
+6367,umls:C0017178,4524,0.12473406395720402,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Gastrointestinal Diseases,CTD_human,3,0
+6426,umls:C0017636,1116,0.13224467880860602,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Glioblastoma,CTD_human,18,0
+6492,umls:C0017638,1116,0.131158911320285,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Glioma,CTD_human,13,0
+6548,umls:C0017638,7124,0.136296443846482,TNF,tumor necrosis factor,Glioma,CTD_human,52,0
+6573,umls:C0017639,627,0.12,BDNF,brain-derived neurotrophic factor,Gliosis,CTD_human,1,0
+6603,umls:C0017658,7124,0.128262808294248,TNF,tumor necrosis factor,Glomerulonephritis,CTD_human,17,0
+6897,umls:C0017661,5999,0.12,RGS4,regulator of G-protein signaling 4,IGA Glomerulonephritis,CTD_human,1,0
+7123,umls:C0018133,4524,0.142746373559605,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Graft-vs-Host Disease,CTD_human,8,0
+7161,umls:C0018273,152330,0.12,CNTN4,contactin 4,Growth Disorders,CTD_human,1,0
+7205,umls:C0018553,207,0.120814325616241,AKT1,v-akt murine thymoma viral oncogene homolog 1,"Hamartoma Syndrome, Multiple",ORPHANET,3,0
+7234,umls:C0018671,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,Head and Neck Neoplasms,CTD_human,1,0
+7281,umls:C0018772,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,"Hearing Loss, Partial",GWASCAT,1,2
+7323,umls:C0018790,7124,0.20081432561624102,TNF,tumor necrosis factor,Cardiac Arrest,CTD_human,5,0
+7343,umls:C0018798,4524,0.16784984757614702,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Congenital Heart Defects,CTD_human,29,1
+7384,umls:C0018799,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Heart Diseases,CTD_human,1,0
+7397,umls:C0018799,6925,0.12,TCF4,transcription factor 4,Heart Diseases,CTD_human,1,0
+7422,umls:C0018800,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Cardiomegaly,CTD_human,1,0
+7445,umls:C0018800,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Cardiomegaly,CTD_human,1,0
+7463,umls:C0018800,7124,0.12,TNF,tumor necrosis factor,Cardiomegaly,CTD_human,3,0
+7500,umls:C0018801,3084,0.12108576748832099,NRG1,neuregulin 1,Heart failure,CTD_human,4,0
+7518,umls:C0018801,488,0.20244297684872303,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Heart failure,CTD_human,11,1
+7543,umls:C0018801,7124,0.22388434169965699,TNF,tumor necrosis factor,Heart failure,CTD_human,34,0
+7597,umls:C0018843,7124,0.12,TNF,tumor necrosis factor,Heat Stroke,CTD_human,1,0
+7601,umls:C0018922,4665,0.12,NAB2,NGFI-A binding protein 2 (EGR1 binding protein 2),hemangiopericytoma,ORPHANET,0,0
+7624,umls:C0018939,4524,0.132192478156875,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Hematological Disease,CTD_human,5,0
+7648,umls:C0018995,7124,0.13055389540272902,TNF,tumor necrosis factor,Hemochromatosis,CTD_human,5,0
+7666,umls:C0019061,7124,0.12,TNF,tumor necrosis factor,Hemolytic-Uremic Syndrome,CTD_human,1,0
+7704,umls:C0019151,7124,0.12,TNF,tumor necrosis factor,Hepatic Encephalopathy,CTD_human,2,0
+7728,umls:C0019163,2903,0.12263847385068198,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Hepatitis B,GWASCAT,1,1
+7744,umls:C0019187,7124,0.132082857546701,TNF,tumor necrosis factor,"Hepatitis, Alcoholic",CTD_human,10,0
+7792,umls:C0019202,348,0.12236703197860198,APOE,apolipoprotein E,Hepatolenticular Degeneration,CTD_human,2,0
+7810,umls:C0019202,7124,0.12027144187208001,TNF,tumor necrosis factor,Hepatolenticular Degeneration,CTD_human,2,0
+7863,umls:C0019284,7124,0.12,TNF,tumor necrosis factor,Diaphragmatic Hernia,CTD_human,1,0
+7870,umls:C0019337,1813,0.128729747168288,DRD2,dopamine receptor D2,Heroin Dependence,CTD_human,8,0
+7877,umls:C0019337,627,0.123181357594843,BDNF,brain-derived neurotrophic factor,Heroin Dependence,CTD_human,4,0
+7894,umls:C0019569,3084,0.124538566955244,NRG1,neuregulin 1,Hirschsprung Disease,CTD_human,9,1
+8073,umls:C0020429,1814,0.12236703197860198,DRD3,dopamine receptor D3,Hyperalgesia,CTD_human,2,0
+8082,umls:C0020429,3356,0.2,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Hyperalgesia,CTD_human,3,0
+8128,umls:C0020429,7124,0.20054288374416102,TNF,tumor necrosis factor,Hyperalgesia,CTD_human,15,0
+8141,umls:C0020433,7124,0.12,TNF,tumor necrosis factor,Hyperbilirubinemia,CTD_human,1,0
+8148,umls:C0020437,7124,0.120814325616241,TNF,tumor necrosis factor,Hypercalcemia,CTD_human,4,0
+8170,umls:C0020443,348,0.201659324542588,APOE,apolipoprotein E,Hypercholesterolemia,CTD_human,70,2
+8191,umls:C0020445,348,0.137535439206697,APOE,apolipoprotein E,"Hypercholesterolemia, Familial",CTD_human,26,0
+8256,umls:C0020473,348,0.303112285213482,APOE,apolipoprotein E,Hyperlipidemia,CTD_human,87,0
+8272,umls:C0020476,348,0.126981543803967,APOE,apolipoprotein E,Hyperlipoproteinemias,CLINVAR,18,1
+8277,umls:C0020479,348,0.39103158794059095,APOE,apolipoprotein E,Hyperlipoproteinemia Type III,"CLINVAR,CTD_human,ORPHANET",68,16
+8312,umls:C0020507,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Hyperplasia,CTD_human,1,0
+8335,umls:C0020514,1813,0.128186863424127,DRD2,dopamine receptor D2,Hyperprolactinemia,CTD_human,6,0
+8375,umls:C0020517,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Hypersensitivity,CTD_human,1,0
+8397,umls:C0020517,7124,0.136569223850214,TNF,tumor necrosis factor,Hypersensitivity,CTD_human,9,0
+8426,umls:C0020538,119032,0.12,C10orf32,chromosome 10 open reading frame 32,Hypertensive disease,GWASCAT,1,1
+8443,umls:C0020538,1813,0.121628651232482,DRD2,dopamine receptor D2,Hypertensive disease,CTD_human,7,3
+8498,umls:C0020538,348,0.291129116755292,APOE,apolipoprotein E,Hypertensive disease,CTD_human,71,1
+8578,umls:C0020538,7124,0.23982480541392498,TNF,tumor necrosis factor,Hypertensive disease,CTD_human,32,0
+8592,umls:C0020538,775,0.125819831445525,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Hypertensive disease,CTD_human,5,0
+8594,umls:C0020538,783,0.127915421552047,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Hypertensive disease,GWASCAT,6,1
+8639,umls:C0020542,6532,0.22245118746913395,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Pulmonary Hypertension,CTD_human,17,0
+8643,umls:C0020542,7124,0.120542883744161,TNF,tumor necrosis factor,Pulmonary Hypertension,CTD_human,3,0
+8692,umls:C0020615,7124,0.12,TNF,tumor necrosis factor,Hypoglycemia,CTD_human,1,0
+8693,umls:C0020615,775,0.12,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Hypoglycemia,CTD_human,1,0
+8736,umls:C0020649,1813,0.12,DRD2,dopamine receptor D2,Hypotension,CTD_human,4,0
+8775,umls:C0020649,7124,0.12,TNF,tumor necrosis factor,Hypotension,CTD_human,2,0
+8791,umls:C0020672,7124,0.12,TNF,tumor necrosis factor,"Hypothermia, natural",CTD_human,1,0
+8830,umls:C0021051,775,0.12,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Immunologic Deficiency Syndromes,CTD_human,1,0
+8838,umls:C0021122,1813,0.12236703197860198,DRD2,dopamine receptor D2,"Disruptive, Impulse Control, and Conduct Disorders",CTD_human,4,0
+8839,umls:C0021122,1814,0.12473406395720402,DRD3,dopamine receptor D3,"Disruptive, Impulse Control, and Conduct Disorders",CTD_human,5,0
+8868,umls:C0021361,4524,0.12710109593580599,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Female infertility,CTD_human,4,0
+8905,umls:C0021364,4524,0.14844665287329098,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Male infertility,CTD_human,27,3
+8944,umls:C0021368,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Inflammation,CTD_human,1,0
+9000,umls:C0021368,627,0.20817305072740197,BDNF,brain-derived neurotrophic factor,Inflammation,CTD_human,5,0
+9016,umls:C0021368,7124,0.22996785266713898,TNF,tumor necrosis factor,Inflammation,CTD_human,64,0
+9114,umls:C0021390,7124,0.182983240932536,TNF,tumor necrosis factor,Inflammatory Bowel Diseases,CTD_human,111,2
+9231,umls:C0021655,7124,0.23077141572182602,TNF,tumor necrosis factor,Insulin Resistance,CTD_human,16,0
+9405,umls:C0022595,488,0.592586463474493,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Keratosis Follicularis,"CLINVAR,CTD_human,ORPHANET,UNIPROT",33,5
+9465,umls:C0022658,4524,0.135092462357974,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Kidney Diseases,CTD_human,17,3
+9477,umls:C0022658,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Kidney Diseases,CTD_human,1,0
+9548,umls:C0022661,7124,0.16073493894361499,TNF,tumor necrosis factor,"Kidney Failure, Chronic",CTD_human,19,0
+9607,umls:C0023014,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,Language Development Disorders,CTD_human,1,0
+9611,umls:C0023014,2903,0.12,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Language Development Disorders,CTD_human,1,0
+9615,umls:C0023014,9378,0.12263847385068198,NRXN1,neurexin 1,Language Development Disorders,CTD_human,3,0
+9616,umls:C0023015,1813,0.12027144187208001,DRD2,dopamine receptor D2,Language Disorders,CTD_human,1,0
+9711,umls:C0023281,7124,0.12381011773078801,TNF,tumor necrosis factor,Leishmaniasis,CTD_human,6,0
+9720,umls:C0023283,7124,0.126634157061766,TNF,tumor necrosis factor,"Leishmaniasis, Cutaneous",CTD_human,9,0
+9734,umls:C0023290,7124,0.121628651232482,TNF,tumor necrosis factor,"Leishmaniasis, Visceral",CTD_human,8,0
+9830,umls:C0023434,4524,0.135102393879638,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Chronic Lymphocytic Leukemia,CTD_human,7,0
+9841,umls:C0023434,57476,0.12710109593580599,GRAMD1B,GRAM domain containing 1B,Chronic Lymphocytic Leukemia,GWASCAT,6,1
+10074,umls:C0023487,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Acute Promyelocytic Leukemia,CTD_human,1,0
+10149,umls:C0023530,4524,0.123724241339004,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Leukopenia,CTD_human,6,0
+10197,umls:C0023860,7124,0.120542883744161,TNF,tumor necrosis factor,Listeriosis,CTD_human,3,0
+10275,umls:C0023891,7124,0.128729747168288,TNF,tumor necrosis factor,"Liver Cirrhosis, Alcoholic",CTD_human,8,0
+10408,umls:C0023893,7124,0.12,TNF,tumor necrosis factor,"Liver Cirrhosis, Experimental",CTD_human,1,0
+10450,umls:C0023895,4524,0.129739569786488,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Liver diseases,CTD_human,5,0
+10472,umls:C0023895,7124,0.135611601883744,TNF,tumor necrosis factor,Liver diseases,CTD_human,25,0
+10594,umls:C0023903,6925,0.12,TCF4,transcription factor 4,Liver neoplasms,CTD_human,1,0
+10596,umls:C0023903,7124,0.158176291138115,TNF,tumor necrosis factor,Liver neoplasms,CTD_human,49,1
+10722,umls:C0023976,775,0.121628651232482,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Long QT Syndrome,CLINVAR,6,1
+10768,umls:C0024115,7124,0.204810008827325,TNF,tumor necrosis factor,Lung diseases,CTD_human,14,0
+10781,umls:C0024117,1136,0.129077133910489,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Chronic Obstructive Airway Disease,GWASCAT,19,6
+10782,umls:C0024117,1138,0.12717704080592698,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Chronic Obstructive Airway Disease,GWASCAT,12,3
+10799,umls:C0024117,3356,0.12263847385068198,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Chronic Obstructive Airway Disease,CTD_human,2,0
+10813,umls:C0024117,64478,0.12027144187208001,CSMD1,CUB and Sushi multiple domains 1,Chronic Obstructive Airway Disease,GWASCAT,2,4
+10817,umls:C0024117,7124,0.184914466733742,TNF,tumor necrosis factor,Chronic Obstructive Airway Disease,CTD_human,49,2
+10843,umls:C0024121,1136,0.134916828399342,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Lung Neoplasms,CTD_human,7,2
+10844,umls:C0024121,1138,0.135274146663208,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Lung Neoplasms,CTD_human,7,0
+10845,umls:C0024121,1139,0.122724350242467,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Lung Neoplasms,CTD_human,2,0
+10865,umls:C0024121,1806,0.122724350242467,DPYD,dihydropyrimidine dehydrogenase,Lung Neoplasms,CTD_human,2,0
+10874,umls:C0024121,207,0.13961333544143098,AKT1,v-akt murine thymoma viral oncogene homolog 1,Lung Neoplasms,CTD_human,12,0
+10909,umls:C0024121,348,0.122724350242467,APOE,apolipoprotein E,Lung Neoplasms,CTD_human,3,0
+10928,umls:C0024121,4524,0.132907114684606,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Lung Neoplasms,CTD_human,5,0
+10952,umls:C0024121,5740,0.123267233986628,PTGIS,prostaglandin I2 (prostacyclin) synthase,Lung Neoplasms,CTD_human,3,0
+10979,umls:C0024121,7124,0.143718639262689,TNF,tumor necrosis factor,Lung Neoplasms,CTD_human,12,0
+11126,umls:C0024299,4524,0.14418945931179097,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Lymphoma,CTD_human,14,1
+11136,umls:C0024299,64919,0.12108576748832099,BCL11B,B-cell CLL/lymphoma 11B (zinc finger protein),Lymphoma,CTD_human,5,0
+11148,umls:C0024301,4524,0.125819831445525,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Lymphoma, Follicular",CTD_human,5,0
+11151,umls:C0024301,57476,0.12,GRAMD1B,GRAM domain containing 1B,"Lymphoma, Follicular",GWASCAT,1,1
+11171,umls:C0024305,4524,0.136916610592415,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Lymphoma, Non-Hodgkin",CTD_human,13,1
+11222,umls:C0024530,7124,0.157314477085094,TNF,tumor necrosis factor,Malaria,CTD_human,49,7
+11223,umls:C0024530,91752,0.12,ZNF804A,zinc finger protein 804A,Malaria,GWASCAT,1,1
+11246,umls:C0024667,1312,0.12236703197860198,COMT,catechol-O-methyltransferase,Animal Mammary Neoplasms,CTD_human,2,0
+11546,umls:C0024809,207,0.12345279946692302,AKT1,v-akt murine thymoma viral oncogene homolog 1,Marijuana Abuse,CTD_human,4,1
+11548,umls:C0024809,23780,0.12,APOL2,"apolipoprotein L, 2",Marijuana Abuse,CTD_human,1,0
+11685,umls:C0025202,2903,0.120542883744161,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",melanoma,CTD_human,2,0
+11687,umls:C0025202,2913,0.12027144187208001,GRM3,"glutamate receptor, metabotropic 3",melanoma,CTD_human,2,0
+11775,umls:C0025202,7124,0.14491657040459502,TNF,tumor necrosis factor,melanoma,CTD_human,69,0
+11799,umls:C0025202,8452,0.12,CUL3,cullin 3,melanoma,CTD_human,1,0
+11822,umls:C0025261,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Memory Disorders,CTD_human,1,0
+11823,umls:C0025261,1813,0.12473406395720402,DRD2,dopamine receptor D2,Memory Disorders,CTD_human,3,0
+11850,umls:C0025261,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Memory Disorders,CTD_human,1,0
+11851,umls:C0025261,6532,0.12236703197860198,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Memory Disorders,CTD_human,2,0
+11868,umls:C0025286,207,0.120814325616241,AKT1,v-akt murine thymoma viral oncogene homolog 1,Meningioma,CTD_human,3,0
+11891,umls:C0025312,4524,0.125819831445525,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Meningomyelocele,CTD_human,6,1
+11895,umls:C0025427,348,0.12,APOE,apolipoprotein E,Mercury Poisoning,CTD_human,1,0
+11944,umls:C0025517,3356,0.12,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Metabolic Diseases,CTD_human,1,0
+11988,umls:C0025958,6925,0.12,TCF4,transcription factor 4,Microcephaly,CTD_human,1,0
+12009,umls:C0026552,2903,0.12,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Morphine Dependence,CTD_human,1,0
+12044,umls:C0026636,56603,0.12,CYP26B1,"cytochrome P450, family 26, subfamily B, polypeptide 1",Mouth Diseases,CTD_human,1,0
+12098,umls:C0026650,1813,0.120814325616241,DRD2,dopamine receptor D2,Movement Disorders,CTD_human,4,0
+12099,umls:C0026650,1814,0.120542883744161,DRD3,dopamine receptor D3,Movement Disorders,CTD_human,3,0
+12105,umls:C0026650,3084,0.12,NRG1,neuregulin 1,Movement Disorders,CTD_human,1,0
+12184,umls:C0026766,7124,0.12982544617827302,TNF,tumor necrosis factor,Multiple Organ Failure,CTD_human,6,0
+12198,umls:C0026769,10198,0.129468127914408,MPHOSPH9,M-phase phosphoprotein 9,Multiple Sclerosis,GWASCAT,4,1
+12233,umls:C0026769,348,0.233456870917526,APOE,apolipoprotein E,Multiple Sclerosis,CTD_human,67,0
+12310,umls:C0026846,207,0.12027144187208001,AKT1,v-akt murine thymoma viral oncogene homolog 1,Muscular Atrophy,CTD_human,2,0
+12428,umls:C0027051,348,0.34039786649267895,APOE,apolipoprotein E,Myocardial Infarction,"CLINVAR,CTD_human",55,3
+12473,umls:C0027051,7124,0.248293042231797,TNF,tumor necrosis factor,Myocardial Infarction,CTD_human,30,0
+12528,umls:C0027055,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Myocardial Reperfusion Injury,CTD_human,1,0
+12569,umls:C0027059,7124,0.123724241339004,TNF,tumor necrosis factor,Myocarditis,CTD_human,7,0
+12601,umls:C0027092,6733,0.12,SRPK2,SRSF protein kinase 2,Myopia,GWASCAT,1,1
+12602,umls:C0027092,7434,0.12027144187208001,VIPR2,vasoactive intestinal peptide receptor 2,Myopia,GWASCAT,1,1
+12605,umls:C0027092,9745,0.12,ZNF536,zinc finger protein 536,Myopia,GWASCAT,1,1
+12672,umls:C0027497,7124,0.12,TNF,tumor necrosis factor,Nausea,CTD_human,1,0
+12703,umls:C0027540,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Necrosis,CTD_human,1,0
+12718,umls:C0027540,7124,0.12,TNF,tumor necrosis factor,Necrosis,CTD_human,3,0
+12730,umls:C0027626,1116,0.122724350242467,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Neoplasm Invasiveness,CTD_human,2,0
+12731,umls:C0027626,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Neoplasm Invasiveness,CTD_human,1,0
+12763,umls:C0027626,3084,0.12,NRG1,neuregulin 1,Neoplasm Invasiveness,CTD_human,1,0
+12838,umls:C0027626,7124,0.12236703197860198,TNF,tumor necrosis factor,Neoplasm Invasiveness,CTD_human,5,0
+12875,umls:C0027627,1806,0.12108576748832099,DPYD,dihydropyrimidine dehydrogenase,Neoplasm Metastasis,CTD_human,5,0
+12952,umls:C0027627,4524,0.12345279946692302,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Neoplasm Metastasis,CTD_human,6,0
+13005,umls:C0027627,7124,0.13947780144132502,TNF,tumor necrosis factor,Neoplasm Metastasis,CTD_human,56,0
+13101,umls:C0027659,7124,0.12,TNF,tumor necrosis factor,"Neoplasms, Experimental",CTD_human,3,0
+13242,umls:C0027746,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Nerve Degeneration,CTD_human,1,0
+13266,umls:C0027746,348,0.12710109593580599,APOE,apolipoprotein E,Nerve Degeneration,CTD_human,4,0
+13293,umls:C0027746,627,0.2,BDNF,brain-derived neurotrophic factor,Nerve Degeneration,CTD_human,6,0
+13297,umls:C0027746,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Nerve Degeneration,CTD_human,2,0
+13304,umls:C0027746,7124,0.12,TNF,tumor necrosis factor,Nerve Degeneration,CTD_human,3,0
+13324,umls:C0027765,1806,0.12027144187208001,DPYD,dihydropyrimidine dehydrogenase,nervous system disorder,CTD_human,2,0
+13335,umls:C0027765,4524,0.125005505829284,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),nervous system disorder,CTD_human,4,0
+13350,umls:C0027765,627,0.121900093104562,BDNF,brain-derived neurotrophic factor,nervous system disorder,CTD_human,8,0
+13356,umls:C0027765,6531,0.12027144187208001,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",nervous system disorder,CTD_human,2,0
+13361,umls:C0027765,7124,0.121900093104562,TNF,tumor necrosis factor,nervous system disorder,CTD_human,8,0
+13380,umls:C0027794,4524,0.22179480193973702,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Neural Tube Defects,CTD_human,41,0
+13404,umls:C0027796,7124,0.120814325616241,TNF,tumor necrosis factor,Neuralgia,CTD_human,4,0
+13494,umls:C0027947,1806,0.120814325616241,DPYD,dihydropyrimidine dehydrogenase,Neutropenia,CTD_human,4,2
+13499,umls:C0027947,4524,0.12737253780788602,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Neutropenia,CTD_human,5,0
+13509,umls:C0028043,1136,0.13342020386377398,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Nicotine Dependence,GWASCAT,33,22
+13548,umls:C0028754,10806,0.123181357594843,SDCCAG8,serologically defined colon cancer antigen 8,Obesity,GWASCAT,3,1
+13550,umls:C0028754,1136,0.120542883744161,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Obesity,GWASCAT,2,1
+13589,umls:C0028754,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,Obesity,CTD_human,1,0
+13597,umls:C0028754,207,0.12135720936040198,AKT1,v-akt murine thymoma viral oncogene homolog 1,Obesity,CTD_human,6,0
+13608,umls:C0028754,22997,0.12,IGSF9B,"immunoglobulin superfamily, member 9B",Obesity,GWASCAT,1,1
+13657,umls:C0028754,3356,0.13400669486965303,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Obesity,CTD_human,13,1
+13665,umls:C0028754,348,0.195505919051587,APOE,apolipoprotein E,Obesity,CTD_human,54,8
+13708,umls:C0028754,4855,0.12,NOTCH4,notch 4,Obesity,GWASCAT,1,1
+13747,umls:C0028754,56603,0.12,CYP26B1,"cytochrome P450, family 26, subfamily B, polypeptide 1",Obesity,CTD_human,1,0
+13750,umls:C0028754,56924,0.12,PAK6,p21 protein (Cdc42/Rac)-activated kinase 6,Obesity,GWASCAT,1,1
+13757,umls:C0028754,627,0.158719174882276,BDNF,brain-derived neurotrophic factor,Obesity,GWASCAT,47,9
+13763,umls:C0028754,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Obesity,GWASCAT,1,1
+13780,umls:C0028754,7124,0.23747112674551105,TNF,tumor necrosis factor,Obesity,CTD_human,164,3
+13793,umls:C0028754,783,0.12,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Obesity,GWASCAT,1,1
+13833,umls:C0028756,627,0.12027144187208001,BDNF,brain-derived neurotrophic factor,"Obesity, Morbid",CTD_human,2,0
+13839,umls:C0028768,3356,0.14072672832320401,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Obsessive-Compulsive Disorder,CTD_human,17,3
+13840,umls:C0028768,627,0.13980278209678798,BDNF,brain-derived neurotrophic factor,Obsessive-Compulsive Disorder,CTD_human,18,2
+13841,umls:C0028768,6532,0.17617478804379003,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Obsessive-Compulsive Disorder,CTD_human,40,2
+13905,umls:C0029172,7124,0.12263847385068198,TNF,tumor necrosis factor,Oral Submucous Fibrosis,CTD_human,2,0
+13934,umls:C0029408,1116,0.120814325616241,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Degenerative polyarthritis,CTD_human,4,0
+14119,umls:C0029458,7124,0.12737253780788602,TNF,tumor necrosis factor,"Osteoporosis, Postmenopausal",CTD_human,5,0
+14207,umls:C0030193,1312,0.23647169503551302,COMT,catechol-O-methyltransferase,Pain,CTD_human,35,6
+14212,umls:C0030193,1813,0.12263847385068198,DRD2,dopamine receptor D2,Pain,CTD_human,3,0
+14214,umls:C0030193,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Pain,CTD_human,1,0
+14218,umls:C0030193,27185,0.12,DISC1,disrupted in schizophrenia 1,Pain,CTD_human,1,0
+14222,umls:C0030193,3084,0.12,NRG1,neuregulin 1,Pain,CTD_human,1,0
+14246,umls:C0030193,7124,0.120542883744161,TNF,tumor necrosis factor,Pain,CTD_human,4,1
+14272,umls:C0030297,1806,0.12236703197860198,DPYD,dihydropyrimidine dehydrogenase,Pancreatic Neoplasm,CTD_human,3,0
+14324,umls:C0030297,7124,0.133364122036981,TNF,tumor necrosis factor,Pancreatic Neoplasm,CTD_human,8,0
+14370,umls:C0030319,1312,0.16244946656788198,COMT,catechol-O-methyltransferase,Panic Disorder,CTD_human,22,3
+14444,umls:C0030567,1813,0.238958279145954,DRD2,dopamine receptor D2,Parkinson Disease,CTD_human,22,0
+14501,umls:C0030567,627,0.16101631233736,BDNF,brain-derived neurotrophic factor,Parkinson Disease,CTD_human,16,1
+14505,umls:C0030567,6531,0.16294014966031198,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Parkinson Disease,CTD_human,23,0
+14513,umls:C0030567,7124,0.15010509867076502,TNF,tumor necrosis factor,Parkinson Disease,CTD_human,11,0
+14616,umls:C0031117,1806,0.12027144187208001,DPYD,dihydropyrimidine dehydrogenase,Peripheral Neuropathy,CTD_human,1,2
+14711,umls:C0031117,4524,0.120542883744161,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Peripheral Neuropathy,CTD_human,3,1
+14761,umls:C0031117,5740,0.12,PTGIS,prostaglandin I2 (prostacyclin) synthase,Peripheral Neuropathy,CTD_human,1,0
+14798,umls:C0031117,6925,0.12027144187208001,TCF4,transcription factor 4,Peripheral Neuropathy,CTD_human,1,0
+14801,umls:C0031117,7124,0.12027144187208001,TNF,tumor necrosis factor,Peripheral Neuropathy,CTD_human,2,0
+14860,umls:C0031212,6532,0.14658023550878302,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Personality Disorders,CTD_human,13,1
+14867,umls:C0031391,23780,0.12,APOL2,"apolipoprotein L, 2",Phencyclidine Abuse,CTD_human,1,0
+14876,umls:C0031511,1312,0.12027144187208001,COMT,catechol-O-methyltransferase,Pheochromocytoma,CTD_human,1,0
+14896,umls:C0032019,1813,0.13135440832224402,DRD2,dopamine receptor D2,Pituitary Neoplasms,CTD_human,8,0
+14905,umls:C0032045,7124,0.12,TNF,tumor necrosis factor,Placenta Disorders,CTD_human,1,0
+14908,umls:C0032227,7124,0.12263847385068198,TNF,tumor necrosis factor,Pleural effusion disorder,CTD_human,3,0
+14914,umls:C0032231,7124,0.2,TNF,tumor necrosis factor,Pleurisy,CTD_human,2,0
+14970,umls:C0032285,7124,0.133897074259478,TNF,tumor necrosis factor,Pneumonia,CTD_human,19,0
+15034,umls:C0032460,3084,0.12,NRG1,neuregulin 1,Polycystic Ovary Syndrome,CTD_human,1,0
+15154,umls:C0032580,207,0.12027144187208001,AKT1,v-akt murine thymoma viral oncogene homolog 1,Adenomatous Polyposis Coli,CTD_human,2,0
+15300,umls:C0032963,7124,0.12,TNF,tumor necrosis factor,"Pregnancy Complications, Cardiovascular",CTD_human,1,0
+15362,umls:C0033578,1312,0.12,COMT,catechol-O-methyltransferase,Prostatic Neoplasms,CTD_human,1,0
+15411,umls:C0033578,207,0.17665853982598603,AKT1,v-akt murine thymoma viral oncogene homolog 1,Prostatic Neoplasms,CTD_human,29,0
+15555,umls:C0033578,4524,0.135631464927073,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Prostatic Neoplasms,CTD_human,6,0
+15632,umls:C0033578,56924,0.12299579211454699,PAK6,p21 protein (Cdc42/Rac)-activated kinase 6,Prostatic Neoplasms,CTD_human,2,0
+15755,umls:C0033578,8379,0.12,MAD1L1,MAD1 mitotic arrest deficient-like 1 (yeast),Prostatic Neoplasms,CTD_human,0,0
+15825,umls:C0033687,348,0.12,APOE,apolipoprotein E,Proteinuria,CTD_human,1,0
+15894,umls:C0033860,348,0.128729747168288,APOE,apolipoprotein E,Psoriasis,CTD_human,6,0
+15926,umls:C0033860,64478,0.12263847385068198,CSMD1,CUB and Sushi multiple domains 1,Psoriasis,CTD_human,2,0
+15932,umls:C0033860,7124,0.187293973277418,TNF,tumor necrosis factor,Psoriasis,CTD_human,96,2
+15962,umls:C0033941,207,0.12236703197860198,AKT1,v-akt murine thymoma viral oncogene homolog 1,"Psychoses, Substance-Induced",CTD_human,1,0
+15971,umls:C0033941,6531,0.12236703197860198,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3","Psychoses, Substance-Induced",CTD_human,2,0
+15992,umls:C0033975,3356,0.135635346102134,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Psychotic Disorders,CTD_human,17,2
+15998,umls:C0033975,627,0.131248668887131,BDNF,brain-derived neurotrophic factor,Psychotic Disorders,CTD_human,26,1
+16019,umls:C0034063,7124,0.12,TNF,tumor necrosis factor,Pulmonary Edema,CTD_human,1,0
+16025,umls:C0034065,4524,0.140564907061298,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Pulmonary Embolism,CTD_human,13,0
+16084,umls:C0034069,7124,0.131996981154916,TNF,tumor necrosis factor,Pulmonary Fibrosis,CTD_human,14,0
+16089,umls:C0034139,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,"Purine-Pyrimidine Metabolism, Inborn Errors",CTD_human,2,0
+16212,umls:C0035126,7124,0.12236703197860198,TNF,tumor necrosis factor,Reperfusion Injury,CTD_human,10,0
+16249,umls:C0035228,7124,0.12236703197860198,TNF,tumor necrosis factor,Respiratory Hypersensitivity,CTD_human,2,0
+16278,umls:C0035242,7124,0.127643979679967,TNF,tumor necrosis factor,Respiratory Tract Diseases,CTD_human,6,0
+16320,umls:C0035309,10806,0.12,SDCCAG8,serologically defined colon cancer antigen 8,Retinal Diseases,CTD_human,1,0
+16335,umls:C0035309,7124,0.12135720936040198,TNF,tumor necrosis factor,Retinal Diseases,CTD_human,6,0
+16503,umls:C0036095,5587,0.12,PRKD1,protein kinase D1,Salivary Gland Neoplasms,CTD_human,1,0
+16541,umls:C0036341,10000,0.12,AKT3,v-akt murine thymoma viral oncogene homolog 3,Schizophrenia,GWASCAT,1,1
+16546,umls:C0036341,100528016,0.12,TMX2-CTNND1,TMX2-CTNND1 readthrough (NMD candidate),Schizophrenia,GWASCAT,1,1
+16552,umls:C0036341,10198,0.12,MPHOSPH9,M-phase phosphoprotein 9,Schizophrenia,GWASCAT,1,1
+16554,umls:C0036341,10274,0.12,STAG1,stromal antigen 1,Schizophrenia,GWASCAT,1,1
+16559,umls:C0036341,10806,0.12263847385068198,SDCCAG8,serologically defined colon cancer antigen 8,Schizophrenia,GWASCAT,4,4
+16563,umls:C0036341,1116,0.134092571261437,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),Schizophrenia,CTD_human,7,0
+16566,umls:C0036341,1136,0.12263847385068198,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Schizophrenia,GWASCAT,2,1
+16570,umls:C0036341,1182,0.12,CLCN3,"chloride channel, voltage-sensitive 3",Schizophrenia,GWASCAT,1,1
+16571,umls:C0036341,119032,0.12,C10orf32,chromosome 10 open reading frame 32,Schizophrenia,GWASCAT,1,1
+16576,umls:C0036341,1312,0.345417491171353,COMT,catechol-O-methyltransferase,Schizophrenia,CTD_human,275,10
+16577,umls:C0036341,132200,0.12,C3orf49,chromosome 3 open reading frame 49,Schizophrenia,GWASCAT,1,1
+16583,umls:C0036341,152330,0.12236703197860198,CNTN4,contactin 4,Schizophrenia,GWASCAT,2,1
+16585,umls:C0036341,1610,0.18135204665664398,DAO,D-amino-acid oxidase,Schizophrenia,CTD_human,41,8
+16588,umls:C0036341,1806,0.12027144187208001,DPYD,dihydropyrimidine dehydrogenase,Schizophrenia,CTD_human,3,0
+16590,umls:C0036341,1813,0.29113165758018394,DRD2,dopamine receptor D2,Schizophrenia,CTD_human,162,12
+16591,umls:C0036341,1814,0.26447076498633,DRD3,dopamine receptor D3,Schizophrenia,CTD_human,117,7
+16592,umls:C0036341,1815,0.22610807732802998,DRD4,dopamine receptor D4,Schizophrenia,CTD_human,70,8
+16594,umls:C0036341,203062,0.12,TSNARE1,t-SNARE domain containing 1,Schizophrenia,GWASCAT,2,1
+16595,umls:C0036341,207,0.253069375319068,AKT1,v-akt murine thymoma viral oncogene homolog 1,Schizophrenia,CTD_human,47,0
+16596,umls:C0036341,2107,0.12,ETF1,eukaryotic translation termination factor 1,Schizophrenia,GWASCAT,1,1
+16605,umls:C0036341,22997,0.12,IGSF9B,"immunoglobulin superfamily, member 9B",Schizophrenia,GWASCAT,1,1
+16608,umls:C0036341,23293,0.12236703197860198,SMG6,SMG6 nonsense mediated mRNA decay factor,Schizophrenia,GWASCAT,3,1
+16609,umls:C0036341,23314,0.12,SATB2,SATB homeobox 2,Schizophrenia,GWASCAT,1,1
+16613,umls:C0036341,23780,0.125005505829284,APOL2,"apolipoprotein L, 2",Schizophrenia,CTD_human,3,0
+16627,umls:C0036341,26058,0.12,GIGYF2,GRB10 interacting GYF protein 2,Schizophrenia,GWASCAT,1,1
+16628,umls:C0036341,267012,0.23714794138971998,DAOA,D-amino acid oxidase activator,Schizophrenia,CTD_human,59,0
+16631,umls:C0036341,27185,0.37787243282217703,DISC1,disrupted in schizophrenia 1,Schizophrenia,CTD_human,198,2
+16633,umls:C0036341,280636,0.12,C11orf31,chromosome 11 open reading frame 31,Schizophrenia,GWASCAT,1,1
+16634,umls:C0036341,2823,0.125362824093149,GPM6A,glycoprotein M6A,Schizophrenia,GWASCAT,2,1
+16640,umls:C0036341,2903,0.141626930331229,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Schizophrenia,GWASCAT,18,1
+16647,umls:C0036341,2913,0.30160967583199894,GRM3,"glutamate receptor, metabotropic 3",Schizophrenia,"CTD_human,GWASCAT",39,3
+16651,umls:C0036341,3084,0.330216746334856,NRG1,neuregulin 1,Schizophrenia,CTD_human,209,5
+16654,umls:C0036341,319100,0.140441473754398,TAAR6,trace amine associated receptor 6,Schizophrenia,CTD_human,9,0
+16657,umls:C0036341,3356,0.34121346252136603,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Schizophrenia,CTD_human,114,11
+16663,umls:C0036341,348,0.25008351472618495,APOE,apolipoprotein E,Schizophrenia,CTD_human,39,0
+16666,umls:C0036341,348980,0.12,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,Schizophrenia,GWASCAT,1,1
+16686,umls:C0036341,4124,0.12,MAN2A1,"mannosidase, alpha, class 2A, member 1",Schizophrenia,GWASCAT,1,1
+16690,umls:C0036341,4524,0.218796007395242,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Schizophrenia,CTD_human,61,4
+16693,umls:C0036341,4775,0.12,NFATC3,"nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3",Schizophrenia,GWASCAT,1,1
+16696,umls:C0036341,4855,0.197169077064012,NOTCH4,notch 4,Schizophrenia,GWASCAT,41,5
+16697,umls:C0036341,488,0.12027144187208001,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Schizophrenia,GWASCAT,2,1
+16698,umls:C0036341,4900,0.25125860040879505,NRGN,"neurogranin (protein kinase C substrate, RC3)",Schizophrenia,"CTD_human,GWASCAT",16,2
+16714,umls:C0036341,54805,0.120542883744161,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Schizophrenia,GWASCAT,3,1
+16719,umls:C0036341,55568,0.12,GALNT10,polypeptide N-acetylgalactosaminyltransferase 10,Schizophrenia,GWASCAT,1,1
+16725,umls:C0036341,5587,0.12,PRKD1,protein kinase D1,Schizophrenia,GWASCAT,1,1
+16729,umls:C0036341,56603,0.12263847385068198,CYP26B1,"cytochrome P450, family 26, subfamily B, polypeptide 1",Schizophrenia,GWASCAT,2,1
+16730,umls:C0036341,56924,0.12,PAK6,p21 protein (Cdc42/Rac)-activated kinase 6,Schizophrenia,GWASCAT,1,1
+16731,umls:C0036341,56957,0.12,OTUD7B,OTU deubiquitinase 7B,Schizophrenia,GWASCAT,1,1
+16733,umls:C0036341,57188,0.12027144187208001,ADAMTSL3,ADAMTS-like 3,Schizophrenia,GWASCAT,2,1
+16734,umls:C0036341,5740,0.12,PTGIS,prostaglandin I2 (prostacyclin) synthase,Schizophrenia,GWASCAT,1,1
+16736,umls:C0036341,57476,0.12,GRAMD1B,GRAM domain containing 1B,Schizophrenia,GWASCAT,1,1
+16737,umls:C0036341,57502,0.12236703197860198,NLGN4X,"neuroligin 4, X-linked",Schizophrenia,GWASCAT,2,1
+16741,umls:C0036341,5999,0.21671034881038398,RGS4,regulator of G-protein signaling 4,Schizophrenia,CTD_human,49,4
+16746,umls:C0036341,627,0.295766032448878,BDNF,brain-derived neurotrophic factor,Schizophrenia,CTD_human,149,2
+16755,umls:C0036341,64478,0.20399568321108397,CSMD1,CUB and Sushi multiple domains 1,Schizophrenia,GWASCAT,9,2
+16756,umls:C0036341,6472,0.12,SHMT2,serine hydroxymethyltransferase 2 (mitochondrial),Schizophrenia,GWASCAT,1,1
+16757,umls:C0036341,64919,0.12,BCL11B,B-cell CLL/lymphoma 11B (zinc finger protein),Schizophrenia,GWASCAT,1,1
+16758,umls:C0036341,65078,0.134535765917087,RTN4R,reticulon 4 receptor,Schizophrenia,CTD_human,6,0
+16760,umls:C0036341,6531,0.265014155822253,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Schizophrenia,CTD_human,47,7
+16761,umls:C0036341,6532,0.22858306561851002,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Schizophrenia,CTD_human,61,1
+16763,umls:C0036341,6733,0.12,SRPK2,SRSF protein kinase 2,Schizophrenia,GWASCAT,1,1
+16767,umls:C0036341,6925,0.216525616588496,TCF4,transcription factor 4,Schizophrenia,GWASCAT,29,5
+16769,umls:C0036341,6942,0.12,TCF20,transcription factor 20 (AR1),Schizophrenia,GWASCAT,1,1
+16771,umls:C0036341,7124,0.178885325589531,TNF,tumor necrosis factor,Schizophrenia,CTD_human,37,1
+16774,umls:C0036341,7434,0.121628651232482,VIPR2,vasoactive intestinal peptide receptor 2,Schizophrenia,CTD_human,6,0
+16775,umls:C0036341,7444,0.122909915722763,VRK2,vaccinia related kinase 2,Schizophrenia,GWASCAT,3,1
+16777,umls:C0036341,775,0.134972910226135,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Schizophrenia,GWASCAT,34,6
+16778,umls:C0036341,783,0.120542883744161,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Schizophrenia,GWASCAT,4,2
+16786,umls:C0036341,8379,0.12263847385068198,MAD1L1,MAD1 mitotic arrest deficient-like 1 (yeast),Schizophrenia,GWASCAT,3,7
+16787,umls:C0036341,83857,0.120542883744161,TMTC1,transmembrane and tetratricopeptide repeat containing 1,Schizophrenia,GWASCAT,3,1
+16788,umls:C0036341,83943,0.12,IMMP2L,IMP2 inner mitochondrial membrane peptidase-like (S. cerevisiae),Schizophrenia,GWASCAT,1,1
+16791,umls:C0036341,84062,0.37114158910184897,DTNBP1,dystrobrevin binding protein 1,Schizophrenia,CTD_human,135,3
+16792,umls:C0036341,84334,0.12,APOPT1,"apoptogenic 1, mitochondrial",Schizophrenia,GWASCAT,1,1
+16793,umls:C0036341,8452,0.12,CUL3,cullin 3,Schizophrenia,GWASCAT,1,1
+16805,umls:C0036341,9162,0.12236703197860198,DGKI,"diacylglycerol kinase, iota",Schizophrenia,GWASCAT,2,1
+16806,umls:C0036341,91752,0.26629752398338696,ZNF804A,zinc finger protein 804A,Schizophrenia,"CTD_human,GWASCAT",64,2
+16808,umls:C0036341,9378,0.22825115587133102,NRXN1,neurexin 1,Schizophrenia,CTD_human,35,1
+16812,umls:C0036341,9628,0.12,RGS6,regulator of G-protein signaling 6,Schizophrenia,GWASCAT,1,1
+16814,umls:C0036341,9651,0.12,PLCH2,"phospholipase C, eta 2",Schizophrenia,GWASCAT,1,1
+16816,umls:C0036341,9745,0.12,ZNF536,zinc finger protein 536,Schizophrenia,GWASCAT,1,1
+16832,umls:C0036346,5740,0.12,PTGIS,prostaglandin I2 (prostacyclin) synthase,"Schizophrenia, Childhood",CLINVAR,0,1
+16844,umls:C0036420,7124,0.120542883744161,TNF,tumor necrosis factor,Localized scleroderma,CTD_human,3,0
+16863,umls:C0036421,4855,0.12263847385068198,NOTCH4,notch 4,Systemic Scleroderma,GWASCAT,1,2
+16877,umls:C0036489,348,0.36,APOE,apolipoprotein E,Sea-Blue Histiocyte Syndrome,"CLINVAR,CTD_human,ORPHANET",1,1
+16883,umls:C0036572,1136,0.2,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Seizures,CTD_human,2,0
+16885,umls:C0036572,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Seizures,CTD_human,2,0
+16886,umls:C0036572,1139,0.120814325616241,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Seizures,CTD_human,8,0
+16897,umls:C0036572,1813,0.12027144187208001,DRD2,dopamine receptor D2,Seizures,CTD_human,4,0
+16898,umls:C0036572,1814,0.2,DRD3,dopamine receptor D3,Seizures,CTD_human,2,0
+16915,umls:C0036572,348,0.126905598933846,APOE,apolipoprotein E,Seizures,CTD_human,9,0
+16916,umls:C0036572,348980,0.20054288374416102,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,Seizures,CTD_human,4,0
+16944,umls:C0036572,54805,0.12027144187208001,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Seizures,CTD_human,2,0
+16954,umls:C0036572,627,0.123528744337044,BDNF,brain-derived neurotrophic factor,Seizures,CTD_human,16,0
+16955,umls:C0036572,6505,0.12027144187208001,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Seizures,CTD_human,2,0
+16966,umls:C0036572,6925,0.12027144187208001,TCF4,transcription factor 4,Seizures,CTD_human,2,0
+17028,umls:C0036982,7124,0.12,TNF,tumor necrosis factor,"Shock, Hemorrhagic",CTD_human,1,0
+17032,umls:C0036983,7124,0.209825446178273,TNF,tumor necrosis factor,Septic Shock,CTD_human,6,0
+17051,umls:C0037198,4524,0.125548389573445,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Sinus Thrombosis, Intracranial",CTD_human,6,0
+17096,umls:C0037274,4524,0.12473406395720402,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Dermatologic disorders,CTD_human,3,0
+17123,umls:C0037274,7124,0.124538566955244,TNF,tumor necrosis factor,Dermatologic disorders,CTD_human,10,0
+17144,umls:C0037286,207,0.120542883744161,AKT1,v-akt murine thymoma viral oncogene homolog 1,Skin Neoplasms,CTD_human,2,0
+17194,umls:C0037579,7124,0.12,TNF,tumor necrosis factor,Soft Tissue Neoplasms,CTD_human,2,0
+17225,umls:C0037822,2903,0.12,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Speech Disorders,CTD_human,1,0
+17236,umls:C0037917,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Spina Bifida Cystica,CTD_human,1,0
+17240,umls:C0037926,7124,0.12,TNF,tumor necrosis factor,Compression of spinal cord,CTD_human,1,0
+17243,umls:C0037928,4524,0.12027144187208001,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Spinal Cord Diseases,CTD_human,1,0
+17252,umls:C0038002,348,0.12,APOE,apolipoprotein E,Splenomegaly,CTD_human,1,0
+17310,umls:C0038220,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Status Epilepticus,CTD_human,1,0
+17319,umls:C0038220,627,0.20054288374416102,BDNF,brain-derived neurotrophic factor,Status Epilepticus,CTD_human,5,0
+17332,umls:C0038220,7124,0.20027144187207996,TNF,tumor necrosis factor,Status Epilepticus,CTD_human,3,0
+17368,umls:C0038325,5740,0.12,PTGIS,prostaglandin I2 (prostacyclin) synthase,Stevens-Johnson Syndrome,CTD_human,1,0
+17400,umls:C0038356,1182,0.12,CLCN3,"chloride channel, voltage-sensitive 3",Stomach Neoplasms,CTD_human,1,0
+17421,umls:C0038356,1806,0.132192478156875,DPYD,dihydropyrimidine dehydrogenase,Stomach Neoplasms,CTD_human,8,0
+17511,umls:C0038356,4524,0.22598431785448397,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Stomach Neoplasms,CTD_human,38,0
+17592,umls:C0038356,627,0.12,BDNF,brain-derived neurotrophic factor,Stomach Neoplasms,CTD_human,1,0
+17612,umls:C0038356,7124,0.20308000420803604,TNF,tumor necrosis factor,Stomach Neoplasms,CTD_human,35,0
+17666,umls:C0038358,3084,0.12,NRG1,neuregulin 1,Gastric ulcer,CTD_human,1,0
+17676,umls:C0038358,7124,0.133463811125492,TNF,tumor necrosis factor,Gastric ulcer,CTD_human,10,0
+17717,umls:C0038454,4524,0.257121971396833,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Cerebrovascular accident,CTD_human,139,7
+17728,umls:C0038454,7124,0.25117921373617,TNF,tumor necrosis factor,Cerebrovascular accident,CTD_human,36,0
+17750,umls:C0038587,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Substance Withdrawal Syndrome,CTD_human,1,0
+17751,umls:C0038587,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Substance Withdrawal Syndrome,CTD_human,1,0
+17761,umls:C0038587,1813,0.13447363374369198,DRD2,dopamine receptor D2,Substance Withdrawal Syndrome,CTD_human,7,1
+17769,umls:C0038587,2903,0.12,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Substance Withdrawal Syndrome,CTD_human,1,0
+17792,umls:C0038587,627,0.12,BDNF,brain-derived neurotrophic factor,Substance Withdrawal Syndrome,CTD_human,1,0
+17794,umls:C0038587,6532,0.12737253780788602,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Substance Withdrawal Syndrome,CTD_human,5,1
+17800,umls:C0038644,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Sudden infant death syndrome,CTD_human,1,0
+17811,umls:C0038644,6532,0.225718421455762,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Sudden infant death syndrome,CTD_human,14,1
+17838,umls:C0039231,1813,0.2,DRD2,dopamine receptor D2,Tachycardia,CTD_human,3,0
+17851,umls:C0039231,7124,0.12,TNF,tumor necrosis factor,Tachycardia,CTD_human,1,0
+17879,umls:C0039621,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Tetany,CTD_human,1,0
+17934,umls:C0040034,4524,0.12710109593580599,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Thrombocytopenia,CTD_human,3,0
+17990,umls:C0040053,7124,0.125091382221069,TNF,tumor necrosis factor,Thrombosis,CTD_human,3,0
+18035,umls:C0040136,7124,0.12,TNF,tumor necrosis factor,Thyroid Neoplasm,CTD_human,1,0
+18044,umls:C0040156,4524,0.12027144187208001,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Thyrotoxicosis,CTD_human,1,0
+18046,umls:C0040188,1815,0.125276947701365,DRD4,dopamine receptor D4,Tic disorder,CTD_human,4,0
+18047,umls:C0040188,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Tic disorder,CTD_human,1,0
+18051,umls:C0040336,1136,0.157872511657632,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Tobacco Use Disorder,CTD_human,17,0
+18052,umls:C0040336,1138,0.164973607593439,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Tobacco Use Disorder,CTD_human,20,0
+18053,umls:C0040336,1139,0.20946812791440803,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Tobacco Use Disorder,CTD_human,6,0
+18056,umls:C0040336,1813,0.14840438374322398,DRD2,dopamine receptor D2,Tobacco Use Disorder,CTD_human,13,1
+18061,umls:C0040336,627,0.125091382221069,BDNF,brain-derived neurotrophic factor,Tobacco Use Disorder,CTD_human,3,0
+18090,umls:C0040517,1814,0.125548389573445,DRD3,dopamine receptor D3,Gilles de la Tourette syndrome,CTD_human,5,1
+18174,umls:C0041755,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Adverse reaction to drug,CTD_human,11,0
+18255,umls:C0042109,7124,0.122909915722763,TNF,tumor necrosis factor,Urticaria,CTD_human,4,0
+18293,umls:C0042373,4524,0.155222768153634,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Vascular Diseases,CTD_human,67,2
+18299,umls:C0042373,7124,0.123181357594843,TNF,tumor necrosis factor,Vascular Diseases,CTD_human,5,0
+18315,umls:C0042487,4524,0.20817305072740197,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Venous Thrombosis,CTD_human,49,0
+18387,umls:C0042900,473,0.12236703197860198,RERE,arginine-glutamic acid dipeptide (RE) repeats,Vitiligo,GWASCAT,1,1
+18428,umls:C0043094,1813,0.129468127914408,DRD2,dopamine receptor D2,Weight Gain,CTD_human,4,0
+18489,umls:C0043094,7124,0.12236703197860198,TNF,tumor necrosis factor,Weight Gain,CTD_human,1,0
+18556,umls:C0079218,7124,0.12,TNF,tumor necrosis factor,"Fibromatosis, Aggressive",CTD_human,1,0
+18764,umls:C0085220,348,0.167153735960094,APOE,apolipoprotein E,Cerebral Amyloid Angiopathy,CTD_human,58,0
+18767,umls:C0085261,207,0.36081432561624105,AKT1,v-akt murine thymoma viral oncogene homolog 1,Proteus Syndrome,"CLINVAR,ORPHANET,UNIPROT",4,1
+18833,umls:C0085580,5740,0.24081432561624103,PTGIS,prostaglandin I2 (prostacyclin) synthase,Essential Hypertension,"CLINVAR,CTD_human",3,0
+18850,umls:C0085655,7124,0.12516732709119,TNF,tumor necrosis factor,Polymyositis,CTD_human,11,0
+18989,umls:C0149925,23314,0.12,SATB2,SATB homeobox 2,Small cell carcinoma of lung,CTD_human,1,0
+19026,umls:C0149931,3356,0.128186863424127,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Migraine Disorders,CTD_human,7,2
+19034,umls:C0149931,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Migraine Disorders,GWASCAT,1,1
+19040,umls:C0149931,7124,0.138902580088762,TNF,tumor necrosis factor,Migraine Disorders,CTD_human,16,7
+19216,umls:C0151744,7124,0.130911213666594,TNF,tumor necrosis factor,Myocardial Ischemia,CTD_human,8,0
+19345,umls:C0152013,1136,0.123181357594843,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Adenocarcinoma of lung (disorder),GWASCAT,4,1
+19425,umls:C0153452,152330,0.12,CNTN4,contactin 4,Malignant neoplasm of gallbladder,GWASCAT,1,1
+19466,umls:C0158266,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Intervertebral Disc Degeneration,GWASCAT,1,1
+19497,umls:C0162429,4524,0.125548389573445,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Malnutrition,CTD_human,5,1
+19528,umls:C0162557,7124,0.209629949176314,TNF,tumor necrosis factor,"Liver Failure, Acute",CTD_human,14,0
+19570,umls:C0162670,7124,0.12,TNF,tumor necrosis factor,Mitochondrial Myopathies,CTD_human,1,0
+19677,umls:C0162820,7124,0.132463920028956,TNF,tumor necrosis factor,"Dermatitis, Allergic Contact",CTD_human,5,0
+19781,umls:C0206062,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,"Lung Diseases, Interstitial",GWASCAT,1,1
+19787,umls:C0206064,4524,0.12263847385068198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Microvascular Angina,CTD_human,1,0
+19792,umls:C0206115,627,0.12644859158147098,BDNF,brain-derived neurotrophic factor,WAGR Syndrome,ORPHANET,5,0
+19795,umls:C0206146,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Myocardial Stunning,CTD_human,1,0
+19797,umls:C0206146,7124,0.12,TNF,tumor necrosis factor,Myocardial Stunning,CTD_human,1,0
+19815,umls:C0206617,7124,0.12,TNF,tumor necrosis factor,Cardiovirus Infections,CTD_human,1,0
+19922,umls:C0206708,4524,0.135992664366,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Cervical Intraepithelial Neoplasia,CTD_human,14,0
+19987,umls:C0206762,775,0.12,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit","Limb Deformities, Congenital",CTD_human,1,0
+20017,umls:C0220704,1312,0.134581916222216,COMT,catechol-O-methyltransferase,Shprintzen syndrome,ORPHANET,45,3
+20084,umls:C0221204,7124,0.12473406395720402,TNF,tumor necrosis factor,Lytic lesion,CTD_human,3,0
+20133,umls:C0234985,348,0.12236703197860198,APOE,apolipoprotein E,Mental deterioration,GWASCAT,2,1
+20188,umls:C0236733,1312,0.12236703197860198,COMT,catechol-O-methyltransferase,Amphetamine-Related Disorders,CTD_human,2,0
+20195,umls:C0236733,1813,0.12236703197860198,DRD2,dopamine receptor D2,Amphetamine-Related Disorders,CTD_human,3,0
+20196,umls:C0236733,1814,0.12,DRD3,dopamine receptor D3,Amphetamine-Related Disorders,CTD_human,1,0
+20197,umls:C0236733,1815,0.12,DRD4,dopamine receptor D4,Amphetamine-Related Disorders,CTD_human,1,0
+20199,umls:C0236733,207,0.12236703197860198,AKT1,v-akt murine thymoma viral oncogene homolog 1,Amphetamine-Related Disorders,CTD_human,2,0
+20217,umls:C0236733,3084,0.12,NRG1,neuregulin 1,Amphetamine-Related Disorders,CTD_human,1,0
+20242,umls:C0236733,627,0.12473406395720402,BDNF,brain-derived neurotrophic factor,Amphetamine-Related Disorders,CTD_human,2,0
+20243,umls:C0236733,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Amphetamine-Related Disorders,CTD_human,1,0
+20246,umls:C0236733,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Amphetamine-Related Disorders,CTD_human,1,0
+20247,umls:C0236733,6532,0.12236703197860198,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Amphetamine-Related Disorders,CTD_human,2,0
+20269,umls:C0236736,1312,0.12236703197860198,COMT,catechol-O-methyltransferase,Cocaine-Related Disorders,CTD_human,1,0
+20277,umls:C0236736,1813,0.20473406395720395,DRD2,dopamine receptor D2,Cocaine-Related Disorders,CTD_human,13,0
+20278,umls:C0236736,1814,0.12473406395720402,DRD3,dopamine receptor D3,Cocaine-Related Disorders,CTD_human,7,0
+20286,umls:C0236736,23780,0.12,APOL2,"apolipoprotein L, 2",Cocaine-Related Disorders,CTD_human,1,0
+20304,umls:C0236736,3356,0.12,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Cocaine-Related Disorders,CTD_human,3,0
+20344,umls:C0236736,627,0.12,BDNF,brain-derived neurotrophic factor,Cocaine-Related Disorders,CTD_human,7,0
+20346,umls:C0236736,6531,0.12473406395720402,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Cocaine-Related Disorders,CTD_human,6,0
+20347,umls:C0236736,6532,0.12,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Cocaine-Related Disorders,CTD_human,1,0
+20369,umls:C0236792,27185,0.12644859158147098,DISC1,disrupted in schizophrenia 1,Asperger Syndrome,CTD_human,5,0
+20373,umls:C0236792,6532,0.12,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Asperger Syndrome,CTD_human,1,0
+20378,umls:C0236964,1815,0.12,DRD4,dopamine receptor D4,Attention Deficit and Disruptive Behavior Disorders,CTD_human,1,0
+20388,umls:C0236969,1138,0.12236703197860198,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",Substance-Related Disorders,CTD_human,2,0
+20406,umls:C0236969,1813,0.13893625582881602,DRD2,dopamine receptor D2,Substance-Related Disorders,CTD_human,9,0
+20462,umls:C0236969,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Substance-Related Disorders,CTD_human,1,0
+20465,umls:C0236969,6532,0.134202191871612,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Substance-Related Disorders,CTD_human,7,0
+20486,umls:C0236969,91752,0.12,ZNF804A,zinc finger protein 804A,Substance-Related Disorders,CTD_human,1,0
+20512,umls:C0238198,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Gastrointestinal Stromal Tumors,CLINVAR,0,2
+20647,umls:C0242379,1136,0.17920813707345298,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Malignant neoplasm of lung,GWASCAT,47,10
+20679,umls:C0242383,348,0.19520080143945298,APOE,apolipoprotein E,Age related macular degeneration,CTD_human,56,4
+20682,umls:C0242383,4855,0.12263847385068198,NOTCH4,notch 4,Age related macular degeneration,GWASCAT,1,6
+20711,umls:C0242422,1813,0.2,DRD2,dopamine receptor D2,Parkinsonian Disorders,CTD_human,4,0
+20767,umls:C0242656,1182,0.12,CLCN3,"chloride channel, voltage-sensitive 3",Disease Progression,CTD_human,1,0
+20891,umls:C0242698,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2","Ventricular Dysfunction, Left",CTD_human,1,0
+20912,umls:C0242973,7124,0.12,TNF,tumor necrosis factor,Ventricular Dysfunction,CTD_human,1,0
+20933,umls:C0243026,7124,0.286154284236114,TNF,tumor necrosis factor,Sepsis,CTD_human,101,2
+21205,umls:C0265971,488,0.36081432561624105,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Acrokeratosis Verruciformis of Hopf,"CLINVAR,ORPHANET,UNIPROT",3,2
+21320,umls:C0268237,84334,0.12027144187208001,APOPT1,"apoptogenic 1, mitochondrial",Cytochrome-c Oxidase Deficiency,CLINVAR,1,4
+21352,umls:C0268318,7124,0.12027144187208001,TNF,tumor necrosis factor,Cholestasis of pregnancy,CTD_human,2,0
+21515,umls:C0270612,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,Leukoencephalopathies,CTD_human,1,0
+21516,umls:C0270612,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Leukoencephalopathies,CTD_human,1,0
+21688,umls:C0273115,7124,0.12,TNF,tumor necrosis factor,Lung Injury,CTD_human,2,0
+21691,umls:C0274869,51780,0.12,KDM3B,lysine (K)-specific demethylase 3B,Toxic effect of heavy metal,CTD_human,1,0
+21824,umls:C0282512,2903,0.24027144187207997,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A",Landau-Kleffner Syndrome,"CTD_human,ORPHANET",1,0
+21918,umls:C0311375,4524,0.12236703197860198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Arsenic Poisoning,CTD_human,2,0
+21942,umls:C0311375,7124,0.12,TNF,tumor necrosis factor,Arsenic Poisoning,CTD_human,1,0
+21963,umls:C0333355,4524,0.12473406395720402,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Inflammatory disease of mucous membrane,CTD_human,2,0
+21977,umls:C0333641,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Atrophic,CTD_human,1,0
+22076,umls:C0338656,348,0.19957607578124698,APOE,apolipoprotein E,Impaired cognition,GWASCAT,270,7
+22153,umls:C0340288,7124,0.120542883744161,TNF,tumor necrosis factor,Stable angina,CTD_human,3,0
+22162,umls:C0340493,775,0.12027144187208001,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Paroxysmal familial ventricular fibrillation,CLINVAR,1,1
+22321,umls:C0343755,7124,0.12027144187208001,TNF,tumor necrosis factor,HIV Wasting Syndrome,CTD_human,2,0
+22534,umls:C0376358,3782,0.12,KCNN3,"potassium channel, calcium activated intermediate/small conductance subfamily N alpha, member 3",Malignant neoplasm of prostate,GWASCAT,1,1
+22543,umls:C0376358,4855,0.12,NOTCH4,notch 4,Malignant neoplasm of prostate,GWASCAT,1,1
+22574,umls:C0376532,2903,0.120814325616241,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A","Epilepsy, Rolandic",CTD_human,4,0
+22614,umls:C0376634,152330,0.12,CNTN4,contactin 4,Craniofacial Abnormalities,CTD_human,1,0
+22641,umls:C0376634,23314,0.12,SATB2,SATB homeobox 2,Craniofacial Abnormalities,CTD_human,1,0
+22713,umls:C0376634,6925,0.12,TCF4,transcription factor 4,Craniofacial Abnormalities,CTD_human,1,0
+22737,umls:C0376634,9378,0.12,NRXN1,neurexin 1,Craniofacial Abnormalities,CTD_human,1,0
+22806,umls:C0393706,348980,0.12,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,Early infantile epileptic encephalopathy with suppression bursts,ORPHANET,0,0
+22845,umls:C0398623,4524,0.216296443846482,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Thrombophilia,CTD_human,126,1
+22940,umls:C0403553,10806,0.12,SDCCAG8,serologically defined colon cancer antigen 8,Renal dysplasia and retinal aplasia (disorder),ORPHANET,0,0
+23034,umls:C0424295,1813,0.12,DRD2,dopamine receptor D2,Hyperactive behavior,CTD_human,2,0
+23035,umls:C0424295,1814,0.12,DRD3,dopamine receptor D3,Hyperactive behavior,CTD_human,1,0
+23043,umls:C0424295,3356,0.12,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Hyperactive behavior,CTD_human,2,0
+23055,umls:C0424295,6531,0.12236703197860198,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Hyperactive behavior,CTD_human,3,0
+23080,umls:C0428791,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,Aortic valve calcification,CTD_human,1,0
+23094,umls:C0428977,1813,0.12,DRD2,dopamine receptor D2,Bradycardia,CTD_human,2,0
+23160,umls:C0431391,10000,0.12108576748832099,AKT3,v-akt murine thymoma viral oncogene homolog 3,Hemimegalencephaly,ORPHANET,4,0
+23326,umls:C0497327,6531,0.120542883744161,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Dementia,CTD_human,3,1
+23471,umls:C0524909,4855,0.12,NOTCH4,notch 4,"Hepatitis B, Chronic",GWASCAT,1,1
+23482,umls:C0524948,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Maxillofacial Abnormalities,CTD_human,1,0
+23485,umls:C0525041,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Neurobehavioral Manifestations,CTD_human,1,0
+23493,umls:C0525045,6532,0.188499292897578,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Mood Disorders,CTD_human,88,5
+23522,umls:C0546837,23293,0.12,SMG6,SMG6 nonsense mediated mRNA decay factor,Malignant neoplasm of esophagus,GWASCAT,1,1
+23544,umls:C0549473,3084,0.12027144187208001,NRG1,neuregulin 1,Thyroid carcinoma,GWASCAT,2,2
+23580,umls:C0566602,6925,0.120542883744161,TCF4,transcription factor 4,Primary sclerosing cholangitis,ORPHANET,2,0
+23640,umls:C0598608,4524,0.33731650192049295,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Hyperhomocysteinemia,CTD_human,368,22
+23644,umls:C0598608,7124,0.12,TNF,tumor necrosis factor,Hyperhomocysteinemia,CTD_human,1,0
+23668,umls:C0600467,7124,0.2,TNF,tumor necrosis factor,Neurogenic Inflammation,CTD_human,2,0
+23687,umls:C0677050,7124,0.12,TNF,tumor necrosis factor,Manganese Poisoning,CTD_human,1,0
+23770,umls:C0699790,207,0.124885953697445,AKT1,v-akt murine thymoma viral oncogene homolog 1,Colon Carcinoma,CLINVAR,18,1
+24027,umls:C0751967,348,0.12263847385068198,APOE,apolipoprotein E,"Multiple Sclerosis, Relapsing-Remitting",CTD_human,2,0
+24043,umls:C0752166,10806,0.120814325616241,SDCCAG8,serologically defined colon cancer antigen 8,Bardet-Biedl Syndrome,ORPHANET,3,0
+24084,umls:C0752347,348,0.142431324425806,APOE,apolipoprotein E,Lewy Body Disease,GWASCAT,33,1
+24110,umls:C0795806,152330,0.12,CNTN4,contactin 4,"Chromosome 3, monosomy 3p",ORPHANET,0,0
+24122,umls:C0795907,1312,0.12,COMT,catechol-O-methyltransferase,CONOTRUNCAL ANOMALY FACE SYNDROME,ORPHANET,0,0
+24255,umls:C0852077,4524,0.13183515989301,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Blood Coagulation Disorders, Inherited",CTD_human,6,0
+24263,umls:C0853897,488,0.20081432561624102,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2",Diabetic Cardiomyopathies,CTD_human,5,0
+24266,umls:C0853897,7124,0.12,TNF,tumor necrosis factor,Diabetic Cardiomyopathies,CTD_human,1,0
+24282,umls:C0858252,207,0.12027144187208001,AKT1,v-akt murine thymoma viral oncogene homolog 1,Breast adenocarcinoma,CLINVAR,1,1
+24353,umls:C0860207,348,0.12,APOE,apolipoprotein E,Drug-Induced Liver Injury,CTD_human,1,0
+24395,umls:C0860207,4524,0.13183515989301,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Drug-Induced Liver Injury,CTD_human,7,0
+24428,umls:C0860207,7124,0.202367031978602,TNF,tumor necrosis factor,Drug-Induced Liver Injury,CTD_human,8,0
+24476,umls:C0878544,207,0.12027144187208001,AKT1,v-akt murine thymoma viral oncogene homolog 1,Cardiomyopathies,CTD_human,2,0
+24530,umls:C0878544,7124,0.12799136642216802,TNF,tumor necrosis factor,Cardiomyopathies,CTD_human,15,0
+24581,umls:C0887833,4855,0.12,NOTCH4,notch 4,"Carcinoma, Pancreatic Ductal",CTD_human,1,0
+24627,umls:C0919267,207,0.24563426596523003,AKT1,v-akt murine thymoma viral oncogene homolog 1,ovarian neoplasm,"CLINVAR,CTD_human",6,1
+24722,umls:C0920269,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Microsatellite Instability,CTD_human,1,0
+24767,umls:C0948089,7124,0.13153997380253998,TNF,tumor necrosis factor,Acute Coronary Syndrome,CTD_human,8,0
+24780,umls:C0948480,4524,0.12473406395720402,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Coronary Restenosis,CTD_human,2,0
+24781,umls:C0948480,7124,0.127458414199671,TNF,tumor necrosis factor,Coronary Restenosis,CTD_human,3,0
+24850,umls:C0993582,7124,0.20135720936040197,TNF,tumor necrosis factor,"Arthritis, Experimental",CTD_human,18,0
+24929,umls:C1141890,775,0.12,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Congenital long QT syndrome,CLINVAR,0,2
+24942,umls:C1142166,775,0.24489588521911,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Brugada Syndrome (disorder),"CLINVAR,ORPHANET",9,4
+24944,umls:C1142166,783,0.122724350242467,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Brugada Syndrome (disorder),ORPHANET,1,0
+25021,umls:C1261473,7124,0.123528744337044,TNF,tumor necrosis factor,Sarcoma,CTD_human,17,0
+25065,umls:C1263846,1312,0.17780732045133396,COMT,catechol-O-methyltransferase,Attention deficit hyperactivity disorder,CTD_human,61,16
+25069,umls:C1263846,1813,0.155461872417312,DRD2,dopamine receptor D2,Attention deficit hyperactivity disorder,CTD_human,34,5
+25070,umls:C1263846,1815,0.32942228376194393,DRD4,dopamine receptor D4,Attention deficit hyperactivity disorder,CTD_human,179,10
+25095,umls:C1263846,6531,0.340018448294739,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Attention deficit hyperactivity disorder,CTD_human,214,5
+25108,umls:C1266119,4665,0.12244297684872302,NAB2,NGFI-A binding protein 2 (EGR1 binding protein 2),Solitary fibrous tumor,CTD_human,9,0
+25137,umls:C1269683,3356,0.155266375415353,HTR2A,"5-hydroxytryptamine (serotonin) receptor 2A, G protein-coupled",Major Depressive Disorder,CTD_human,39,17
+25149,umls:C1269683,6532,0.232573024649636,SLC6A4,"solute carrier family 6 (neurotransmitter transporter), member 4",Major Depressive Disorder,CTD_human,136,5
+25174,umls:C1271104,152330,0.12473406395720402,CNTN4,contactin 4,Blood pressure finding,GWASCAT,2,3
+25195,umls:C1271104,4524,0.12473406395720402,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Blood pressure finding,GWASCAT,2,1
+25214,umls:C1271104,783,0.12710109593580599,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Blood pressure finding,GWASCAT,3,3
+25238,umls:C1272641,152330,0.12473406395720402,CNTN4,contactin 4,Systemic arterial pressure,GWASCAT,2,3
+25259,umls:C1272641,4524,0.12710109593580599,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Systemic arterial pressure,GWASCAT,3,1
+25278,umls:C1272641,783,0.12710109593580599,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Systemic arterial pressure,GWASCAT,3,3
+25309,umls:C1275808,627,0.24054288374416102,BDNF,brain-derived neurotrophic factor,Congenital central hypoventilation,"CTD_human,UNIPROT",2,1
+25372,umls:C1306503,1139,0.12,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Congenital exomphalos,CTD_human,1,0
+25469,umls:C1336708,8379,0.24027144187207997,MAD1L1,MAD1 mitotic arrest deficient-like 1 (yeast),Testicular Germ Cell Tumor,"CTD_human,GWASCAT",1,3
+25511,umls:C1384666,348,0.12,APOE,apolipoprotein E,hearing impairment,CTD_human,1,0
+25524,umls:C1384666,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,hearing impairment,GWASCAT,1,2
+25551,umls:C1449844,8452,0.121628651232482,CUL3,cullin 3,"Pseudohypoaldosteronism, Type II",CLINVAR,6,13
+25567,umls:C1449861,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3","Micronuclei, Chromosome-Defective",CTD_human,1,0
+25578,umls:C1456784,6531,0.12027144187208001,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",Paranoia,CTD_human,2,0
+25617,umls:C1458155,1312,0.144161833918339,COMT,catechol-O-methyltransferase,Mammary Neoplasms,CTD_human,11,0
+25648,umls:C1458155,1806,0.13089740096986902,DPYD,dihydropyrimidine dehydrogenase,Mammary Neoplasms,CTD_human,5,0
+25670,umls:C1458155,207,0.175476964424216,AKT1,v-akt murine thymoma viral oncogene homolog 1,Mammary Neoplasms,CTD_human,35,1
+25738,umls:C1458155,3084,0.13770331081520498,NRG1,neuregulin 1,Mammary Neoplasms,CTD_human,11,0
+25827,umls:C1458155,4524,0.16050793537314198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Mammary Neoplasms,CTD_human,16,0
+25839,umls:C1458155,4855,0.12299579211454699,NOTCH4,notch 4,Mammary Neoplasms,CTD_human,4,0
+25948,umls:C1458155,7124,0.142156001378664,TNF,tumor necrosis factor,Mammary Neoplasms,CTD_human,24,0
+26084,umls:C1527281,1815,0.12,DRD4,dopamine receptor D4,Separation anxiety disorder of childhood,CTD_human,1,0
+26092,umls:C1527311,7124,0.12027144187208001,TNF,tumor necrosis factor,Brain Edema,CTD_human,2,0
+26186,umls:C1565489,348,0.12027144187208001,APOE,apolipoprotein E,Renal Insufficiency,CTD_human,2,0
+26236,umls:C1691228,10806,0.12,SDCCAG8,serologically defined colon cancer antigen 8,Cystic Kidney Diseases,CTD_human,1,0
+26458,umls:C1832814,2903,0.12,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A","Rolandic Epilepsy, Mental Retardation, And Speech Dyspraxia, Autosomal Dominant",CLINVAR,0,13
+26468,umls:C1832916,775,0.566243163057847,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Timothy syndrome,"CLINVAR,CTD_human,ORPHANET,UNIPROT",24,4
+26569,umls:C1834570,1813,0.241628651232482,DRD2,dopamine receptor D2,Myoclonic dystonia,"CTD_human,ORPHANET",6,0
+26623,umls:C1835223,7124,0.12,TNF,tumor necrosis factor,"PSORIATIC ARTHRITIS, SUSCEPTIBILITY TO (finding)",CLINVAR,0,0
+27256,umls:C1843211,26058,0.36,GIGYF2,GRB10 interacting GYF protein 2,"PARKINSON DISEASE 11, AUTOSOMAL DOMINANT","CLINVAR,CTD_human,UNIPROT",1,6
+27388,umls:C1845334,57502,0.24,NLGN4X,"neuroligin 4, X-linked","ASPERGER SYNDROME, X-LINKED, SUSCEPTIBILITY TO, 2 (finding)","CLINVAR,CTD_human",0,0
+27404,umls:C1845539,57502,0.24,NLGN4X,"neuroligin 4, X-linked","AUTISM, X-LINKED, SUSCEPTIBILITY TO, 2 (finding)","CLINVAR,CTD_human",0,0
+27816,umls:C1852197,6531,0.120542883744161,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3",MAJOR AFFECTIVE DISORDER 1,CTD_human,2,0
+27822,umls:C1852296,488,0.12,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2","Darier Disease, Acral Hemorrhagic Type",CLINVAR,0,2
+27823,umls:C1852297,488,0.12027144187208001,ATP2A2,"ATPase, Ca++ transporting, cardiac muscle, slow twitch 2","Darier Disease, Segmental",CLINVAR,1,2
+28069,umls:C1855456,7124,0.12,TNF,tumor necrosis factor,PLASMODIUM FALCIPARUM BLOOD INFECTION LEVEL,CTD_human,0,0
+28073,umls:C1855457,7124,0.12,TNF,tumor necrosis factor,"MALARIA, CEREBRAL, SUSCEPTIBILITY TO (finding)",CLINVAR,0,0
+28108,umls:C1856058,4524,0.36217153497664206,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"HOMOCYSTINURIA DUE TO DEFICIENCY OF N(5,10)-METHYLENETETRAHYDROFOLATE REDUCTASE ACTIVITY","CLINVAR,ORPHANET,UNIPROT",11,44
+28109,umls:C1856059,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Mthfr Deficiency, Thermolabile Type",CLINVAR,0,2
+28110,umls:C1856061,4524,0.12263847385068198,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Methylenetetrahydrofolate reductase deficiency,CTD_human,2,0
+28160,umls:C1857253,6505,0.44027144187208006,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Dicarboxylicaminoaciduria,"CLINVAR,ORPHANET,UNIPROT",1,2
+28241,umls:C1858050,27185,0.12,DISC1,disrupted in schizophrenia 1,SCHIZOPHRENIA 9,CLINVAR,0,0
+28455,umls:C1860861,1814,0.12,DRD3,dopamine receptor D3,"TREMOR, HEREDITARY ESSENTIAL, 1",CTD_human,0,0
+28460,umls:C1861063,1136,0.12,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)","TOBACCO ADDICTION, SUSCEPTIBILITY TO (finding)",CTD_human,2,0
+28462,umls:C1861063,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)","TOBACCO ADDICTION, SUSCEPTIBILITY TO (finding)",CTD_human,1,0
+28467,umls:C1861063,627,0.12,BDNF,brain-derived neurotrophic factor,"TOBACCO ADDICTION, SUSCEPTIBILITY TO (finding)",CTD_human,1,0
+28468,umls:C1861063,6531,0.12,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3","TOBACCO ADDICTION, SUSCEPTIBILITY TO (finding)",CTD_human,0,0
+28505,umls:C1861172,7124,0.12236703197860198,TNF,tumor necrosis factor,Venous Thromboembolism,CTD_human,2,0
+28540,umls:C1861537,4524,0.120542883744161,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),OROFACIAL CLEFT 1,CTD_human,2,1
+28617,umls:C1862591,348,0.12,APOE,apolipoprotein E,"CORONARY ARTERY DISEASE, SEVERE, SUSCEPTIBILITY TO",CLINVAR,0,1
+28672,umls:C1862939,7124,0.12,TNF,tumor necrosis factor,AMYOTROPHIC LATERAL SCLEROSIS 1,CTD_human,1,0
+28681,umls:C1863051,348,0.12108576748832099,APOE,apolipoprotein E,ALZHEIMER DISEASE 2,CTD_human,4,0
+28722,umls:C1863924,10000,0.12,AKT3,v-akt murine thymoma viral oncogene homolog 3,Megalanecephaly Polymicrogyria-Polydactyly Hydrocephalus Syndrome,CTD_human,1,0
+28751,umls:C1864205,348,0.12,APOE,apolipoprotein E,"Macular Degeneration, Age-Related, 1",CTD_human,0,0
+28956,umls:C1866430,1815,0.12,DRD4,dopamine receptor D4,NOVELTY SEEKING PERSONALITY TRAIT,CTD_human,0,0
+28966,umls:C1866558,4524,0.2,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),"Neural tube defect, folate-sensitive",CTD_human,0,0
+29057,umls:C1869116,7124,0.12,TNF,tumor necrosis factor,"ASTHMA, SUSCEPTIBILITY TO (finding)",CLINVAR,0,0
+29095,umls:C1955869,10000,0.12027144187208001,AKT3,v-akt murine thymoma viral oncogene homolog 3,Malformations of Cortical Development,CTD_human,2,0
+29104,umls:C1955869,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",Malformations of Cortical Development,CTD_human,1,0
+29139,umls:C1956346,23293,0.12236703197860198,SMG6,SMG6 nonsense mediated mRNA decay factor,Coronary Artery Disease,GWASCAT,2,3
+29166,umls:C1956346,54805,0.12,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,Coronary Artery Disease,GWASCAT,1,1
+29193,umls:C1959620,1806,0.377882825948897,DPYD,dihydropyrimidine dehydrogenase,Dihydropyrimidine Dehydrogenase Deficiency,"CTD_human,ORPHANET,UNIPROT",38,9
+29241,umls:C1961099,64919,0.12298586059288301,BCL11B,B-cell CLL/lymphoma 11B (zinc finger protein),Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,CTD_human,12,0
+29271,umls:C1961102,4524,0.232099661557125,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Precursor Cell Lymphoblastic Leukemia Lymphoma,CTD_human,79,7
+29397,umls:C1970095,23314,0.12,SATB2,SATB homeobox 2,"Cleft Palate, Isolated, And Mental Retardation",CTD_human,0,0
+29447,umls:C1970431,6925,0.48732893054616794,TCF4,transcription factor 4,PITT-HOPKINS SYNDROME,"CLINVAR,CTD_human,ORPHANET,UNIPROT",27,27
+29448,umls:C1970431,9378,0.12108576748832099,NRXN1,neurexin 1,PITT-HOPKINS SYNDROME,CTD_human,4,0
+29512,umls:C2239176,1312,0.120542883744161,COMT,catechol-O-methyltransferase,Liver carcinoma,CTD_human,2,0
+29524,umls:C2239176,1806,0.12108576748832099,DPYD,dihydropyrimidine dehydrogenase,Liver carcinoma,CTD_human,4,0
+29719,umls:C2267227,627,0.12244297684872302,BDNF,brain-derived neurotrophic factor,Bulimia Nervosa,CTD_human,9,1
+29800,umls:C2609414,4524,0.12,MTHFR,methylenetetrahydrofolate reductase (NAD(P)H),Acute kidney injury,CTD_human,1,0
+29819,umls:C2609414,7124,0.12,TNF,tumor necrosis factor,Acute kidney injury,CTD_human,3,0
+29828,umls:C2673196,348,0.49396308760793395,APOE,apolipoprotein E,LIPOPROTEIN GLOMERULOPATHY,"CLINVAR,CTD_human,ORPHANET,UNIPROT",34,2
+29974,umls:C2675904,627,0.12027144187208001,BDNF,brain-derived neurotrophic factor,"Wilms Tumor, Aniridia, Genitourinary Anomalies, Mental Retardation, and Obesity Syndrome",CTD_human,1,0
+30009,umls:C2676676,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,"BREAST-OVARIAN CANCER, FAMILIAL, SUSCEPTIBILITY TO, 1",CTD_human,0,0
+30020,umls:C2676739,23314,0.24,SATB2,SATB homeobox 2,Chromosome 2q32-Q33 Deletion Syndrome,"CLINVAR,ORPHANET",0,1
+30096,umls:C2677571,1136,0.12,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",LUNG CANCER SUSCEPTIBILITY 2 (disorder),CLINVAR,0,1
+30097,umls:C2677571,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",LUNG CANCER SUSCEPTIBILITY 2 (disorder),CLINVAR,0,1
+30104,umls:C2677613,1139,0.120814325616241,CHRNA7,"cholinergic receptor, nicotinic, alpha 7 (neuronal)",Chromosome 15q13.3 Microdeletion Syndrome,ORPHANET,3,0
+30108,umls:C2677770,1116,0.24,CHI3L1,chitinase 3-like 1 (cartilage glycoprotein-39),"ASTHMA-RELATED TRAITS, SUSCEPTIBILITY TO, 7","CLINVAR,CTD_human",0,0
+30162,umls:C2678477,783,0.36,CACNB2,"calcium channel, voltage-dependent, beta 2 subunit",Brugada Syndrome 4,"CLINVAR,CTD_human,UNIPROT",1,2
+30163,umls:C2678478,775,0.36,CACNA1C,"calcium channel, voltage-dependent, L type, alpha 1C subunit",Brugada Syndrome 3,"CLINVAR,CTD_human,UNIPROT",1,2
+30331,umls:C2750088,1312,0.24,COMT,catechol-O-methyltransferase,"HEARING LOSS, CISPLATIN-INDUCED, SUSCEPTIBILITY TO","CTD_human,ORPHANET",1,0
+30353,umls:C2750451,6925,0.12027144187208001,TCF4,transcription factor 4,"CORNEAL DYSTROPHY, FUCHS ENDOTHELIAL, 3",CLINVAR,1,0
+30400,umls:C2751067,6531,0.48081432561624105,SLC6A3,"solute carrier family 6 (neurotransmitter transporter), member 3","Parkinsonism-Dystonia, Infantile","CLINVAR,CTD_human,ORPHANET,UNIPROT",3,6
+30742,umls:C2931803,627,0.12,BDNF,brain-derived neurotrophic factor,Deletion 11p13,ORPHANET,0,0
+30788,umls:C2931875,84062,0.24,DTNBP1,dystrobrevin binding protein 1,Albinism with hemorrhagic diathesis and pigmented reticuloendothelial cells,"CLINVAR,CTD_human",0,1
+30791,umls:C2931876,1806,0.12,DPYD,dihydropyrimidine dehydrogenase,Hirschsprung disease 1,CLINVAR,0,1
+30813,umls:C2936346,1312,0.124267125083164,COMT,catechol-O-methyltransferase,22q11 Deletion Syndrome,ORPHANET,8,1
+30823,umls:C2936350,348,0.12,APOE,apolipoprotein E,"Plaque, Atherosclerotic",CTD_human,5,0
+30954,umls:C3150168,1136,0.12,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",SMOKING AS A QUANTITATIVE TRAIT LOCUS 3 (disorder),CLINVAR,0,1
+30955,umls:C3150168,1138,0.12,CHRNA5,"cholinergic receptor, nicotinic, alpha 5 (neuronal)",SMOKING AS A QUANTITATIVE TRAIT LOCUS 3 (disorder),CLINVAR,0,1
+31048,umls:C3150877,10806,0.12,SDCCAG8,serologically defined colon cancer antigen 8,SENIOR-LOKEN SYNDROME 7,CLINVAR,0,6
+31179,umls:C3151295,54805,0.24,CNNM2,cyclin and CBS domain divalent metal cation transport mediator 2,"HYPOMAGNESEMIA 6, RENAL","CLINVAR,UNIPROT",1,1
+31257,umls:C3160718,1815,0.12,DRD4,dopamine receptor D4,"PARKINSON DISEASE, LATE-ONSET",CTD_human,0,0
+31283,umls:C3160731,1136,0.12,CHRNA3,"cholinergic receptor, nicotinic, alpha 3 (neuronal)",Pulmonary function (finding),GWASCAT,2,2
+31333,umls:C3266101,1312,0.12,COMT,catechol-O-methyltransferase,22q11 partial monosomy syndrome,ORPHANET,0,0
+31419,umls:C3279756,84062,0.32,DTNBP1,dystrobrevin binding protein 1,HERMANSKY-PUDLAK SYNDROME 7,"CLINVAR,ORPHANET",0,2
+31508,umls:C3280479,9378,0.12,NRXN1,neurexin 1,PITT-HOPKINS-LIKE SYNDROME 2,CLINVAR,0,1
+31512,umls:C3280524,9378,0.12,NRXN1,neurexin 1,SCHIZOPHRENIA 17,CLINVAR,0,0
+31529,umls:C3280729,56603,0.36,CYP26B1,"cytochrome P450, family 26, subfamily B, polypeptide 1",RADIOHUMERAL FUSIONS WITH OTHER SKELETAL AND CRANIOFACIAL ANOMALIES,"CLINVAR,ORPHANET,UNIPROT",1,2
+31617,umls:C3463992,348980,0.12,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,"EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 1",CTD_human,1,0
+31626,umls:C3469606,8452,0.36,CUL3,cullin 3,"PSEUDOHYPOALDOSTERONISM, TYPE IIE","CLINVAR,ORPHANET,UNIPROT",1,1
+31716,umls:C3495559,3084,0.12,NRG1,neuregulin 1,Juvenile arthritis,CTD_human,1,0
+31733,umls:C3495559,473,0.12,RERE,arginine-glutamic acid dipeptide (RE) repeats,Juvenile arthritis,CTD_human,1,0
+31773,umls:C3495559,8379,0.12,MAD1L1,MAD1 mitotic arrest deficient-like 1 (yeast),Juvenile arthritis,CTD_human,1,0
+31802,umls:C3501611,57502,0.12,NLGN4X,"neuroligin 4, X-linked","Mental Retardation, X-Linked Nonsyndromic",CLINVAR,0,0
+32050,umls:C3554519,207,0.12,AKT1,v-akt murine thymoma viral oncogene homolog 1,COWDEN SYNDROME 6,CLINVAR,0,2
+32078,umls:C3662483,4665,0.12,NAB2,NGFI-A binding protein 2 (EGR1 binding protein 2),Allergic sensitization,GWASCAT,1,1
+32107,umls:C3714514,7124,0.185964846478488,TNF,tumor necrosis factor,Infection,CTD_human,25,0
+32152,umls:C3714756,27185,0.12,DISC1,disrupted in schizophrenia 1,Intellectual Disability,CTD_human,1,0
+32199,umls:C3714756,627,0.12027144187208001,BDNF,brain-derived neurotrophic factor,Intellectual Disability,CTD_human,2,0
+32238,umls:C3714756,9378,0.121628651232482,NRXN1,neurexin 1,Intellectual Disability,CTD_human,7,0
+32278,umls:C3806402,2903,0.24,GRIN2A,"glutamate receptor, ionotropic, N-methyl D-aspartate 2A","EPILEPSY, FOCAL, WITH SPEECH DISORDER AND WITH OR WITHOUT MENTAL RETARDATION","ORPHANET,UNIPROT",7,0
+32316,umls:C3808913,6505,0.12,SLC1A1,"solute carrier family 1 (neuronal/epithelial high affinity glutamate transporter, system Xag), member 1",SCHIZOPHRENIA 18,CLINVAR,0,0
+32562,umls:C3875321,64478,0.12,CSMD1,CUB and Sushi multiple domains 1,Inflammatory dermatosis,GWASCAT,1,1
+32703,umls:C4014531,348980,0.12,HCN1,hyperpolarization activated cyclic nucleotide gated potassium channel 1,"EPILEPTIC ENCEPHALOPATHY, EARLY INFANTILE, 24",UNIPROT,1,0
+32728,umls:C4014738,10000,0.12,AKT3,v-akt murine thymoma viral oncogene homolog 3,MEGALENCEPHALY-POLYMICROGYRIA-POLYDACTYLY-HYDROCEPHALUS SYNDROME 2,UNIPROT,2,0
+32824,umls:C4021107,9651,0.12,PLCH2,"phospholipase C, eta 2",Non-obstructive azoospermia,GWASCAT,1,1
