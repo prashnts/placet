@@ -29,6 +29,7 @@ module.exports = config:
         allowCache: true
         includePaths: [
           './node_modules/@blueprintjs/core/dist/'
+          './node_modules/tachyons-sass/'
           bourbon.includePaths...
         ]
     babel:
