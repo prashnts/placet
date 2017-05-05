@@ -12,33 +12,32 @@ class Placet extends Component {
     this.state = {
       loaded: false,
       stage: 2,
-      tissue: 'STR',
+      tissue: 'A1C',
     }
   }
 
   render () {
     return (
       <div className='np-root'>
-
-        <Network
-          onLoad={val => this.setState({loaded: val})}
-          stage={this.state.stage}
-          tissue={this.state.tissue}
-        />
+        <Network onLoad={val => this.setState({loaded: val})}
+                 stage={this.state.stage}
+                 tissue={this.state.tissue}/>
 
         {!this.state.loaded &&
-          <NonIdealState
-            title='Loading'
-            visual={<Spinner/>}
-          />
-        }
+          <NonIdealState title='Loading'
+                         visual={<Spinner/>}/>}
 
         <section className='np-tools np-container'>
-          <DevelopmentalStageSlider
-            onChange={v => this.setState({ stage: v })}
-            value={this.state.stage}
-            disabled={!this.state.loaded}
-          />
+          <div className='fl w-30 pr2'>
+            <TissueSelector value={this.state.tissue}
+                            onChange={v => this.setState({ tissue: v })}
+                            disabled={!this.state.loaded}/>
+          </div>
+          <div className='fl w-70 pa2'>
+            <DevelopmentalStageSlider value={this.state.stage}
+                                      onChange={v => this.setState({ stage: v })}
+                                      disabled={!this.state.loaded}/>
+          </div>
         </section>
       </div>
     )
