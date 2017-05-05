@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Intent } from '@blueprintjs/core'
+import SigmaGraph from 'sigma/src/classes/sigma.classes.graph'
 
 import autoBind from 'react-autobind'
 import memoize from 'lodash/memoize'
@@ -14,9 +15,9 @@ const scheme = d3.interpolateCool
 const GREY = d3.color('#ccc')
 
 
-const radiiScale = d3.scaleLinear()
+const radiiScale = d3.scalePow()
   .domain([0, 1])
-  .range([3, 40])
+  .range([5, 40])
 
 
 class Network extends Component {
@@ -27,6 +28,10 @@ class Network extends Component {
       tissue: props.tissue,
     }
     this.expression = {}
+    this.graph = new SigmaGraph( key => {
+      const settings = { immutable: false, clone: true }
+      return settings[key]
+    })
 
     this.emitLoad = props.onLoad
     autoBind(this)
@@ -69,11 +74,11 @@ class Network extends Component {
     this.simulation = d3.forceSimulation()
       .force('link', d3.forceLink().id(d => d.id))
       .force('charge', d3.forceManyBody().strength(-1))
-      .force('center', d3.forceCenter(600, 400))
+      .force('center', d3.forceCenter(700, 400))
 
-    request({ url: '/data/network_adj_list.json' })
+    request({ url: '/data/network_sigma.json' })
       .then(resp => {
-        this.graph = resp
+        this.graph.read(resp)
         this.drawGraph()
         this.updateGraph()
           .then(() => this.emitLoad(true))
@@ -95,7 +100,7 @@ class Network extends Component {
     this._links = this.svg.append('g')
         .attr('class', 'np-graph-links')
       .selectAll('lines')
-      .data(this.graph.links)
+      .data(this.graph.edges())
       .enter()
         .append('line')
           .attr('stroke-width', 1)
@@ -103,7 +108,7 @@ class Network extends Component {
     this._nodes = this.svg.append('g')
         .attr('class', 'np-graph-nodes')
       .selectAll('circle')
-      .data(this.graph.nodes)
+      .data(this.graph.nodes())
       .enter()
         .append('g')
         .on('mouseover', function (d) {
@@ -129,10 +134,10 @@ class Network extends Component {
       .attr('dy', '.35em')
       .text(d => d.id)
 
-    this.simulation.nodes(this.graph.nodes)
+    this.simulation.nodes(this.graph.nodes())
       .on('tick', this.handleTick)
     this.simulation.force('link')
-      .links(this.graph.links)
+      .links(this.graph.edges())
   }
 
   updateGraph () {
