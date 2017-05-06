@@ -3,13 +3,7 @@ import { Slider } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
 
-const STAGES = [
-  'Prenatal',
-  'Infant',
-  'Child',
-  'Adolescent',
-  'Adult',
-]
+import { STAGES } from '../constants'
 
 
 class DevelopmentalStageSlider extends Component {
