@@ -7,7 +7,7 @@ import memoize from 'lodash/memoize'
 import * as d3 from 'd3'
 
 import { request } from '../mixins'
-import { STAGES } from './developmental-stage-slider'
+import { STAGES } from '../constants'
 import { Toast } from '../utils'
 
 const color = d3.scaleOrdinal(d3.schemeCategory20)
