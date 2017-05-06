@@ -19,7 +19,7 @@ class Placet extends Component {
   render () {
     return (
       <div className='np-root'>
-        <Network onLoad={val => this.setState({loaded: val})}
+        <Network onLoad={loaded => this.setState({ loaded })}
                  stage={this.state.stage}
                  tissue={this.state.tissue}/>
 

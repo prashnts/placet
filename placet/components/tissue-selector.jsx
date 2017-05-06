@@ -39,4 +39,3 @@ class TissueSelector extends Component {
 
 
 export default TissueSelector
-export { TISSUES }

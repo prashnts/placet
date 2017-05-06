@@ -27,19 +27,16 @@ class DevelopmentalStageSlider extends Component {
 
   render () {
     return (
-      <Slider
-          min={0}
-          max={STAGES.length - 1}
-          disabled={this.state.disabled}
-          stepSize={1}
-          showTrackFill={false}
-          value={this.state.value}
-          onChange={this.changeStage}
-          renderLabel={value => STAGES[value]}
-      />
+      <Slider value={this.state.value}
+              onChange={this.changeStage}
+              renderLabel={value => STAGES[value]}
+              min={0}
+              max={STAGES.length - 1}
+              disabled={this.state.disabled}
+              stepSize={1}
+              showTrackFill={false}/>
     )
   }
 }
 
 export default DevelopmentalStageSlider
-export { STAGES }
