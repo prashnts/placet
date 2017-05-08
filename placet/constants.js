@@ -18,11 +18,11 @@ const TISSUES = [
 ]
 
 const STAGES = [
-  'Prenatal',
-  'Infant',
-  'Child',
-  'Adolescent',
-  'Adult',
+  { id: 'prenatal', label: 'Prenatal' },
+  { id: 'infant', label: 'Infant' },
+  { id: 'child', label: 'Child' },
+  { id: 'adolescent', label: 'Adolescent' },
+  { id: 'adult', label: 'Adult' },
 ]
 
 export { TISSUES, STAGES }
