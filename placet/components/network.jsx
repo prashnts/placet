@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Intent } from '@blueprintjs/core'
-import SigmaGraph from 'sigma/src/classes/sigma.classes.graph'
 
 import autoBind from 'react-autobind'
 import memoize from 'lodash/memoize'
@@ -10,6 +9,8 @@ import * as d3 from 'd3'
 import { request } from '../mixins'
 import { STAGES } from '../constants'
 import { Toast } from '../utils'
+
+import Graph from './graph'
 
 const color = d3.scaleOrdinal(d3.schemeCategory20)
 const scheme = d3.interpolateCool
@@ -33,10 +34,7 @@ class Network extends Component {
       tissue: props.tissue,
     }
     this.expression = {}
-    this.graph = new SigmaGraph( key => {
-      const settings = { immutable: false, clone: true }
-      return settings[key]
-    })
+    this.graph = new Graph()
 
     this.emitLoad = props.onLoad
     autoBind(this)
@@ -106,7 +104,7 @@ class Network extends Component {
     this._links = this.svg.append('g')
         .attr('class', 'np-graph-links')
       .selectAll('lines')
-      .data(this.graph.edges())
+      .data(this.graph.edges)
       .enter()
         .append('line')
           .attr('stroke-width', 1)
@@ -120,7 +118,7 @@ class Network extends Component {
     this._nodes = this.svg.append('g')
         .attr('class', 'np-graph-nodes')
       .selectAll('circle')
-      .data(this.graph.nodes())
+      .data(this.graph.nodes)
       .enter()
         .append('g')
         .on('mouseover', function () {
@@ -160,10 +158,10 @@ class Network extends Component {
     this._label_rect
       .attr('width', d => bbx[d.id].width + 6)    // Offset the width for padding.
 
-    this.simulation.nodes(this.graph.nodes())
+    this.simulation.nodes(this.graph.nodes)
       .on('tick', throttle(this.handleTick, 100))
     this.simulation.force('link')
-      .links(this.graph.edges())
+      .links(this.graph.edges)
   }
 
   updateGraph () {
