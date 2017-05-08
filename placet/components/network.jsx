@@ -2,24 +2,16 @@ import React, { Component } from 'react'
 import { Intent } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
-import memoize from 'lodash/memoize'
 import throttle from 'lodash/throttle'
 import * as d3 from 'd3'
 
-import { request } from '../mixins'
-import { STAGES } from '../constants'
-import { Toast } from '../utils'
+import { request } from '~/placet/mixins'
+import { STAGES } from '~/placet/constants'
+import { Toast } from '~/placet/utils'
 
-import Graph from './graph'
+import ExpressionGraph from '~/placet/models/expression-graph'
 
 const color = d3.scaleOrdinal(d3.schemeCategory20)
-const scheme = d3.interpolateCool
-const GREY = d3.color('#ccc')
-
-
-const radiiScale = d3.scalePow()
-  .domain([0, 1])
-  .range([5, 40])
 
 const degreeOpacityScale = d3.scaleThreshold()
   .domain([0, 1, 5, 10, 20])
@@ -34,42 +26,10 @@ class Network extends Component {
       tissue: props.tissue,
     }
     this.expression = {}
-    this.graph = new Graph()
+    this.graph = new ExpressionGraph()
 
     this.emitLoad = props.onLoad
     autoBind(this)
-
-    this.computeRadii = memoize(this._computeRadii)
-    this.computeColor = memoize(this._computeColor)
-    this.computeStrokeColor = memoize(this._computeStrokeColor)
-  }
-
-  _clearCache () {
-    this.computeRadii.cache.clear()
-    this.computeColor.cache.clear()
-    this.computeStrokeColor.cache.clear()
-  }
-
-  _computeRadii (node) {
-    let exp = this.expression[node.id]
-    if (exp) {
-      return radiiScale(this.expression[node.id])
-    } else {
-      return 1
-    }
-  }
-
-  _computeColor (node) {
-    let exp = this.expression[node.id]
-    if (exp) {
-      return scheme(exp)
-    } else {
-      return GREY
-    }
-  }
-
-  _computeStrokeColor (node) {
-    return d3.color(this._computeColor(node)).darker(1)
   }
 
   componentDidMount () {
@@ -159,7 +119,7 @@ class Network extends Component {
       .attr('width', d => bbx[d.id].width + 6)    // Offset the width for padding.
 
     this.simulation.nodes(this.graph.nodes)
-      .on('tick', throttle(this.handleTick, 100))
+      .on('tick', this.handleTick)
     this.simulation.force('link')
       .links(this.graph.edges)
   }
@@ -169,9 +129,8 @@ class Network extends Component {
     const stage_id = STAGES[stage].id
     return request({ url: `/data/expression/${stage_id}/${tissue}.json`})
       .then(resp => {
-        this.expression = resp
+        this.graph.updateWithExpressions(resp)
         this.simulation.alphaTarget(0).restart()
-        this._clearCache()
       })
       .fail(() => {
         Toast.show({
@@ -192,9 +151,9 @@ class Network extends Component {
     this._circles
       .attr('cx', d => d.x)
       .attr('cy', d => d.y)
-      .attr('r', this.computeRadii)
-      .style('fill', this.computeColor)
-      .style('stroke', this.computeStrokeColor)
+      .attr('r', d => d.r)
+      .style('fill', d => d.fill)
+      .style('stroke', d => d.stroke)
 
     this._label_text
       .attr('x', d => d.x + 3)
