@@ -4,6 +4,7 @@ import SigmaGraph from 'sigma/src/classes/sigma.classes.graph'
 
 import autoBind from 'react-autobind'
 import memoize from 'lodash/memoize'
+import throttle from 'lodash/throttle'
 import * as d3 from 'd3'
 
 import { request } from '../mixins'
@@ -18,6 +19,10 @@ const GREY = d3.color('#ccc')
 const radiiScale = d3.scalePow()
   .domain([0, 1])
   .range([5, 40])
+
+const degreeOpacityScale = d3.scaleThreshold()
+  .domain([0, 1, 5, 10, 20])
+  .range([0.1, 0.3, 0.5, 0.9])
 
 
 class Network extends Component {
@@ -71,10 +76,11 @@ class Network extends Component {
 
   componentDidMount () {
     this.svg = d3.select(this.refs.svg)
+    const [height, width] = [window.innerHeight, window.innerWidth]
     this.simulation = d3.forceSimulation()
       .force('link', d3.forceLink().id(d => d.id))
       .force('charge', d3.forceManyBody().strength(-1))
-      .force('center', d3.forceCenter(700, 400))
+      .force('center', d3.forceCenter(width / 2, height / 2))
 
     request({ url: '/data/network_sigma.json' })
       .then(resp => {
@@ -104,6 +110,12 @@ class Network extends Component {
       .enter()
         .append('line')
           .attr('stroke-width', 1)
+          .attr('opacity', l => {
+            return degreeOpacityScale(Math.max(
+              this.graph.degree(l.source),
+              this.graph.degree(l.target)
+            ))
+          })
 
     this._nodes = this.svg.append('g')
         .attr('class', 'np-graph-nodes')
@@ -111,10 +123,10 @@ class Network extends Component {
       .data(this.graph.nodes())
       .enter()
         .append('g')
-        .on('mouseover', function (d) {
+        .on('mouseover', function () {
           d3.select(this).selectAll('.np-label').style('display', '')
         })
-        .on('mouseout', (d) => {
+        .on('mouseout', () => {
           d3.selectAll('.np-label').style('display', 'none')
         })
         .call(d3.drag()
@@ -126,27 +138,41 @@ class Network extends Component {
       .append('circle')
         .attr('r', 2)
         .attr('fill', d => color(d.group))
+        .attr('opacity', d => degreeOpacityScale(this.graph.degree(d.id)))
 
     this._labels = this._nodes
-      .append('text')
+      .append('g')
       .classed('np-label', true)
       .style('display', 'none')
-      .attr('dy', '.35em')
+
+    this._label_rect = this._labels
+      .append('rect')
+
+    this._label_text = this._labels
+      .append('text')
       .text(d => d.id)
 
+    let bbx = {}
+    this._label_text._groups[0].forEach(el => {
+      bbx[el.textContent] = el.getBBox()
+    })
+
+    this._label_rect
+      .attr('width', d => bbx[d.id].width + 6)    // Offset the width for padding.
+
     this.simulation.nodes(this.graph.nodes())
-      .on('tick', this.handleTick)
+      .on('tick', throttle(this.handleTick, 100))
     this.simulation.force('link')
       .links(this.graph.edges())
   }
 
   updateGraph () {
     const { stage, tissue } = this.state
-    const stage_id = STAGES[stage].toLowerCase()
+    const stage_id = STAGES[stage].id
     return request({ url: `/data/expression/${stage_id}/${tissue}.json`})
       .then(resp => {
         this.expression = resp
-        this.simulation.alphaTarget(0.4).restart()
+        this.simulation.alphaTarget(0).restart()
         this._clearCache()
       })
       .fail(() => {
@@ -172,9 +198,13 @@ class Network extends Component {
       .style('fill', this.computeColor)
       .style('stroke', this.computeStrokeColor)
 
-    this._labels
-      .attr('x', d => d.x + 8)
-      .attr('y', d => d.y)
+    this._label_text
+      .attr('x', d => d.x + 3)
+      .attr('y', d => d.y + 2)
+
+    this._label_rect
+      .attr('x', d => d.x)
+      .attr('y', d => d.y - 12)
   }
 
   updateSimulation (alpha) {
@@ -186,7 +216,7 @@ class Network extends Component {
   }
 
   dragStart (d) {
-    this.updateSimulation(0.3)
+    this.updateSimulation(0.1)
     d.fx = d.x
     d.fy = d.y
   }
