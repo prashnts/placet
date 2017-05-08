@@ -66,7 +66,7 @@ module.exports = config:
       joinTo: 'css/app.css'
 
   server:
-    command: "node_modules/.bin/http-server -c-1 -p #{process.env.PORT or 8080}"
+    command: "node_modules/.bin/http-server -p #{process.env.PORT or 8080} -c-1"
 
   hooks:
     preCompile: (end) ->
