@@ -4,6 +4,7 @@
 body
   margin: 0
   background: $pt-app-background-color
+  font-family: Karla
   @include transition(background .1s ease-in)
 
   &.pt-dark
@@ -43,3 +44,14 @@ body
 .np-graph-nodes circle
   stroke-width: 1px
   @include transition(r .3s ease-in-out)
+
+.np-label
+  cursor: pointer
+  rect
+    fill: black
+    height: 18px
+    rx: 2px
+    ry: 2px
+  text
+    fill: #fff
+    font-size: 14px
