@@ -29,7 +29,7 @@ class DevelopmentalStageSlider extends Component {
     return (
       <Slider value={this.state.value}
               onChange={this.changeStage}
-              renderLabel={value => STAGES[value]}
+              renderLabel={value => STAGES[value].label}
               min={0}
               max={STAGES.length - 1}
               disabled={this.state.disabled}
