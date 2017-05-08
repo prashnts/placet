@@ -5,9 +5,10 @@ import Graph from './graph'
 const coolScheme = d3.interpolateCool
 const GREY = d3.color('#ccc')
 
+// -- Adapt this scale to whatever value provides best radius changes.
 const radiiScale = d3.scalePow()
-  .domain([0, 1])
-  .range([5, 40])
+  .domain([0, 0.05, 0.1, 0.15, 0.2, 0.4, 0.6, 1])
+  .range([5, 15, 20, 25, 30, 35, 40])
 
 
 class ExpressionGraph extends Graph {

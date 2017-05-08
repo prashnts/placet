@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Intent } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
-import throttle from 'lodash/throttle'
 import * as d3 from 'd3'
 
 import { request } from '~/placet/mixins'
