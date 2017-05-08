@@ -1,5 +1,5 @@
 // Placet
-
+- const GoogleFonts = 'https://fonts.googleapis.com/css?family=Karla:400,400i'
 doctype html
 html(lang='en')
   head
@@ -10,9 +10,11 @@ html(lang='en')
     meta(property='og:url', content='https://placet.noop.pw')
     link(rel='canonical', href='https://placet.noop.pw')
     link(rel='stylesheet', type='text/css', href='css/app.css')
+    if !DEBUG
+      link(rel='stylesheet', type='text/css', href=GoogleFonts)
     if DEBUG
       script.
-        window.brunch = {server: 'localhost'};
+        window.brunch = { server: 'localhost' };
   body
     nav.pt-navbar.pt-fixed-top
       .np-container
