@@ -1,0 +1,18 @@
+{
+  "name": "Placet",
+  "description": "Placet Server",
+  "success_url": "/",
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "heroku-redis:hobby-dev"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "repository": "https://github.com/prashnts/placet"
+}
