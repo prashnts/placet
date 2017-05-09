@@ -7,7 +7,11 @@
     "start": "brunch w -s",
     "build": "brunch b -p",
     "deploy": "sh deploy.sh",
-    "test": "mocha"
+    "test": "mocha",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "node": "7.x"
   },
   "author": "Prashant Sinha <prashant+git@noop.pw>",
   "license": "MIT",
