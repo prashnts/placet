@@ -46,6 +46,7 @@
     "js-cookie": "^2.1.4",
     "lodash": "^4.17.4",
     "node-bourbon": "^4.2.8",
+    "node-sass": "^4.5.2",
     "react": "^15.5.4",
     "react-addons-css-transition-group": "^15.5.2",
     "react-autobind": "^1.0.6",
