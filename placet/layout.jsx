@@ -4,6 +4,7 @@ import { Spinner, NonIdealState } from '@blueprintjs/core'
 import Network from './components/network'
 import TissueSelector from './components/tissue-selector'
 import DevelopmentalStageSlider from './components/developmental-stage-slider'
+import SVGExporter from './components/export-svg'
 
 
 class Placet extends Component {
@@ -20,6 +21,7 @@ class Placet extends Component {
     return (
       <div className='np-root'>
         <Network onLoad={loaded => this.setState({ loaded })}
+                 ref='network'
                  stage={this.state.stage}
                  tissue={this.state.tissue}/>
 
@@ -32,6 +34,7 @@ class Placet extends Component {
             <TissueSelector value={this.state.tissue}
                             onChange={v => this.setState({ tissue: v })}
                             disabled={!this.state.loaded}/>
+            <SVGExporter getSVG={() => this.refs.network.exportSVG()} />
           </div>
           <div className='fl w-70 pa2'>
             <DevelopmentalStageSlider value={this.state.stage}
