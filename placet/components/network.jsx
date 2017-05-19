@@ -3,6 +3,7 @@ import { Intent } from '@blueprintjs/core'
 
 import autoBind from 'react-autobind'
 import * as d3 from 'd3'
+import jquery from 'jquery'
 
 import { request } from '~/placet/mixins'
 import { STAGES } from '~/placet/constants'
@@ -67,6 +68,8 @@ class Network extends Component {
       .enter()
         .append('line')
           .attr('stroke-width', 1)
+          .attr('stroke', '#777')
+          .attr('stroke-opacity', 0.1)
           .attr('opacity', l => {
             return degreeOpacityScale(Math.max(
               this.graph.degree(l.source),
@@ -186,6 +189,13 @@ class Network extends Component {
     this.updateSimulation(0)
     d.fx = null
     d.fy = null
+  }
+
+  exportSVG () {
+    const serializer = new XMLSerializer()
+    let svg = this.svg.node().cloneNode(true)
+    svg.setAttribute('xlink', 'http://www.w3.org/1999/xlink')
+    return serializer.serializeToString(svg)
   }
 
   render () {
